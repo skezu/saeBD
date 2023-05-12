@@ -3,3 +3,5 @@ create table personnages(
 );
 select * from personnages;
 
+drop table personnages;
+
