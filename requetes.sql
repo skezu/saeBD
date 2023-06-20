@@ -3,12 +3,12 @@ SELECT R2.nomRang from Rang
 INNER JOIN Rang R2 ON R2.numRang = R.numRang
 INNER JOIN Personnage P1 ON P1.Personnage.numRang = R.numRang
 INNER JOIN Personnage P2 ON P2.Personnage.numRang = R2.numRang
-INNER JOIN ROLE R ON R.numRole = P2.numRole
+INNER JOIN rolerole R ON R.numrolerole = P2.numrolerole
 INNER JOIN A_FAIT A ON P1.numPersonnage = A.numPersonnage
 INNER JOIN A_FAIT A2 ON P2.numPersonnage = A2.numPersonnage
 WHERE A.numEvenement=A2.numEvenement
 AND P1.nomPersonnage = 'Genos'
-AND P2.nomRole = 'Monstre';
+AND P2.nomrolerole = 'Monstre';
 
 
 -- 5. Quelle ville a sollicité le plus d’intervention de héros
@@ -17,16 +17,16 @@ INNER JOIN Lieu L ON L.numVille = Ville.numVille
 INNER JOIN Evenement E ON E.numEvenement = L.numEvenement
 INNER JOIN A_FAIT A ON A.numEvenement = E.numEvenement
 INNER JOIN Personnage P ON P.numPersonnage = A.numPersonnage
-INNER JOIN ROLE R ON R.numRole = P.numRole
-WHERE R.nomRole = 'Héros'
+INNER JOIN rolerole R ON R.numrolerole = P.numrolerole
+WHERE R.nomrolerole = 'Héros'
 GROUP BY numVille, nomVille
 HAVING count(numEvenement) = (SELECT max(count(numEvenement)) from Ville
 INNER JOIN Lieu L ON L.numVille = Ville.numVille
 INNER JOIN Evenement E ON E.numEvenement = L.numEvenement
 INNER JOIN A_FAIT A ON A.numEvenement = E.numEvenement
 INNER JOIN Personnage P ON P.numPersonnage = A.numPersonnage
-INNER JOIN ROLE R ON R.numRole = P.numRole
-WHERE R.nomRole = 'Héros');
+INNER JOIN rolerole R ON R.numrolerole = P.numrolerole
+WHERE R.nomrolerole = 'Héros');
 
 -- 6. Donner la liste nominative des amis de l'héro Saitama
 SELECT nomPersonnage, AliasPersonnage
@@ -40,11 +40,11 @@ WHERE R.typeRelation='Ami' AND P2.nomPersonnage = 'Saitama';
 SELECT P1.numPersonnage, P1.nomPersonnage, P1.AliasPersonnage, P2.numPersonnage
 FROM Personnage P1
 INNER JOIN Personnage P2 ON P1.numPersonnage = P2.numPersonnage
-INNER JOIN Role R ON R.numRole = P1.numRole
-INNER JOIN Role R2 ON R2.numRole = P2.numRole
+INNER JOIN rolerole R ON R.numrolerole = P1.numrolerole
+INNER JOIN rolerole R2 ON R2.numrolerole = P2.numrolerole
 INNER JOIN A_FAIT AF ON P1.numPersonnage = AF.numPersonnage
 INNER JOIN A_FAIT AF2 ON P2.numPersonnage = AF2.numPersonnage
-WHERE R.nomRole = 'Monstre' AND R2.nomRole = 'Héros'
+WHERE R.nomrolerole = 'Monstre' AND R2.nomrolerole = 'Héros'
 GROUP BY nomPersonnage, AliasPersonnage
 HAVING count(P1.numPersonnage)>=15;
 
