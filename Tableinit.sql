@@ -1,4 +1,20 @@
-
+DROP TABLE Specialite;
+DROP TABLE Role;
+DROP TABLE Clan;
+DROP TABLE Arc;
+DROP TABLE Saison;
+DROP TABLE Episode;
+Drop Table Ville;
+DROP TABLE EpisodeVille;
+DROP TABLE Lieu;
+DROP TABLE Rang;
+DROP TABLE Personnage;
+DROP TABLE Relation;
+DROP TABLE EpisodePersonnage;
+DROP TABLE Niveau;
+DROP TABLE EvenementPersonnage;
+DROP TABLE SpecialitePersonnage;
+DROP TABLE Evenement;
 -------------------------------------------------------------------SPECIALITE--------------------------------------------------------------------------------
 
 CREATE TABLE Specialite (
@@ -6,14 +22,14 @@ CREATE TABLE Specialite (
     nomSpecialite VARCHAR(25)
 );
 
-DROP TABLE Specialite;
+
 
 -------------------------------------------------------------------ROLE--------------------------------------------------------------------------------
-CREATE TABLE Role(
-  numRole NUMBER PRIMARY KEY,
-  nomRole VARCHAR(25)
+CREATE TABLE RoleRole(
+  numRoleRole NUMBER PRIMARY KEY,
+  nomRoleRole VARCHAR(25)
 );
-  DROP TABLE Role;
+ 
 -------------------------------------------------------------------CLAN--------------------------------------------------------------------------------
 CREATE TABLE Clan(
   numClan NUMBER,
@@ -21,7 +37,7 @@ CREATE TABLE Clan(
   descriptionClan VARCHAR(255),
   PRIMARY KEY (numClan)
 ) ;
-DROP TABLE Clan;
+
 
 ------------------------------------ARC----------------------------------------------------------------------------------
 
@@ -31,7 +47,7 @@ CREATE TABLE Arc(
   descriptionArc VARCHAR(255),
   PRIMARY KEY (numArc)
 );
-DROP TABLE Arc;
+
 ---------------------------------------------- SAISON --------------------------------------------------------------------------------
 
 CREATE TABLE Saison(
@@ -43,7 +59,7 @@ CREATE TABLE Saison(
   FOREIGN KEY (Arc) REFERENCES Arc(numArc),
   PRIMARY KEY (numSaison)
 );
-DROP TABLE Saison;
+
 
 --------------------------------EPISODE-------------------------------------------------
 CREATE TABLE Episode(
@@ -56,14 +72,14 @@ CREATE TABLE Episode(
   FOREIGN KEY (saison) REFERENCES Saison(numSaison),
   PRIMARY KEY (numEpisode)
 );
-DROP TABLE Episode;
+
 ------------------------------------------------VILLE---------------------------------------
 CREATE TABLE Ville (
   numville NUMBER,
   nomville VARCHAR(25),
   PRIMARY KEY (numville)
 );
-Drop Table Ville;
+
 ------------------------------------------------EpisodeVille---------------------------------------
 CREATE TABLE EpisodeVille(
   numEpisode NUMBER,
@@ -72,7 +88,7 @@ CREATE TABLE EpisodeVille(
   FOREIGN KEY (numVille) REFERENCES Ville(numVille),
   PRIMARY KEY (numEpisode,numVille)
 );
-DROP TABLE EpisodeVille;
+
 -------------------------------------------Lieu------------------------------------------------
 CREATE TABLE Lieu (
   numLieu NUMBER,
@@ -82,7 +98,7 @@ CREATE TABLE Lieu (
   FOREIGN KEY (villeLieu) REFERENCES Ville(numVille),
   PRIMARY KEY (numLieu)
 );
-DROP TABLE Lieu;
+
 -----------------------------------------------RANG----------------------------------------------------
 
 CREATE TABLE Rang (
@@ -90,7 +106,7 @@ CREATE TABLE Rang (
     nomRang VARCHAR(25),
     PRIMARY KEY (numRang)
 );
-DROP TABLE Rang;
+
 ---------------------------------------Personnage----------------------------------------------------
 CREATE TABLE Personnage(
 numPersonnage NUMBER,
@@ -110,7 +126,6 @@ FOREIGN KEY (Clan) REFERENCES Clan(numClan),
 FOREIGN KEY (RolePersonnage) REFERENCES Role(numRole),
 PRIMARY KEY (numPersonnage)
 );
-DROP TABLE Personnage;
 
 ------------------------------------------------------------RELATION------------------------------------------------------------
 CREATE TABLE Relation (
@@ -121,7 +136,7 @@ CREATE TABLE Relation (
     FOREIGN KEY (numPersonnage2) REFERENCES Personnage(numPersonnage),
     PRIMARY KEY (numPersonnage,numPersonnage2)
 );
-DROP TABLE Relation;
+
 
 -------------------------------------------------------------EPISODEPERSONNAGE------------------------------------------------
 CREATE TABLE EpisodePersonnage(
@@ -131,7 +146,7 @@ FOREIGN KEY (numPersonnage) REFERENCES Personnage(numPersonnage),
 FOREIGN KEY (numEpisode) REFERENCES Episode(numEpisode),
 PRIMARY KEY (numPersonnage,numEpisode)
 );
-DROP TABLE EpisodePersonnage;
+
 
 -------------------------------------------------------------NIVEAU------------------------------------------------------------
 CREATE TABLE Niveau(
@@ -144,7 +159,7 @@ CREATE TABLE Niveau(
     FOREIGN KEY (numPersonnage) REFERENCES Personnage(numPersonnage),
     FOREIGN KEY (rangNiveau) REFERENCES Rang(numRang)
 );
-DROP TABLE Niveau;
+
 
 --------------------------------------------------Evenement------------------------------------------------------------
 CREATE TABLE Evenement(
@@ -157,7 +172,7 @@ CREATE TABLE Evenement(
     FOREIGN KEY (numEvenement) REFERENCES Evenement(numEvenement),
     PRIMARY KEY (numEvenement)
 );
-DROP TABLE Evenement;
+
 
 ---------------------------------------------------------------SPECIALITEPERSONNAGE------------------------------------------------
 CREATE TABLE SpecialitePersonnage(
@@ -167,7 +182,7 @@ CREATE TABLE SpecialitePersonnage(
     FOREIGN KEY (numSpecialite) REFERENCES Specialite(numSpecialite),
     PRIMARY KEY (numPersonnage,numSpecialite)
 );
-DROP TABLE SpecialitePersonnage;
+
 
 -----------------------------------------------------------EVENEMENTPERSONNAGE------------------------------------------------
 CREATE TABLE EvenementPersonnage(
@@ -177,6 +192,6 @@ CREATE TABLE EvenementPersonnage(
     FOREIGN KEY (numEvenement) REFERENCES Evenement(numEvenement),
     PRIMARY KEY (numPersonnage,numEvenement)
 );
-DROP TABLE EvenementPersonnage;
+
 
 
