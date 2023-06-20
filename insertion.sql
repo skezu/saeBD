@@ -128,7 +128,7 @@ INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnag
     (13, 'Clan des assassins', 'Le Clan des assassins est un groupe d''assassins mortels qui acceptent des contrats pour éliminer des cibles.')
 ;
 
---Insertion de la table RoleRole
+--Insertion de la table Role
    INSERT INTO RoleRole (numRoleRole,nomRoleRole)VALUES
     (1, 'Héros');
     INSERT INTO RoleRole (numRoleRole,nomRoleRole)VALUES
@@ -149,7 +149,7 @@ INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnag
     (9, 'Dieu');
     INSERT INTO RoleRole (numRoleRole,nomRoleRole)VALUES
     (10, 'Sauveur');
-    INSERT INTO RoleRole (numRoleRole,nomRoleRole)VALUESVALUES
+    INSERT INTO RoleRole (numRoleRole,nomRoleRole)VALUES
     (11, 'Membre de l''Association des héros')
     ;
 
@@ -428,7 +428,7 @@ INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnag
     INSERT INTO Lieu(numLieu, nomLieu,descriptionLieu,villeLieu) VALUES
     (10, 'Quartier de la haute société', 'Un quartier luxueux avec des résidences opulentes et des lieux de divertissement pour l''élite sociale.',1);
     INSERT INTO Lieu(numLieu, nomLieu,descriptionLieu,villeLieu) VALUES
-    (11, 'Quartier des étudiants', 'Un quartier dynamique où se trouvent les campus universitaires, les résidences étudiantes et les lieux de divertissement des étudiants.';1);
+    (11, 'Quartier des étudiants', 'Un quartier dynamique où se trouvent les campus universitaires, les résidences étudiantes et les lieux de divertissement des étudiants.',1);
     INSERT INTO Lieu(numLieu, nomLieu,descriptionLieu,villeLieu) VALUES
     (12, 'Quartier historique', 'Une zone riche en histoire, avec des bâtiments anciens, des musées et des monuments historiques.',1);
     INSERT INTO Lieu(numLieu, nomLieu,descriptionLieu,villeLieu) VALUES
