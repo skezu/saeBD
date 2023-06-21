@@ -231,7 +231,7 @@ INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnag
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
     (10, 'Combat contre Orochi');
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (11, 'Combat contre Black Sperm')
+    (11, 'Combat contre Black Sperm');
     
     
 --Insertion de la table 'Ville'
