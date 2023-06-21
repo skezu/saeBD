@@ -1,5 +1,5 @@
 DROP TABLE Specialite;
-DROP TABLE Role;
+DROP TABLE RoleRole;
 DROP TABLE Clan;
 DROP TABLE Arc;
 DROP TABLE Saison;
@@ -123,7 +123,7 @@ RolePersonnage NUMBER,
 FOREIGN KEY (villePersonnage) REFERENCES Ville(numVille),
 FOREIGN KEY (rangPersonnage) REFERENCES Rang(numRang),
 FOREIGN KEY (Clan) REFERENCES Clan(numClan),
-FOREIGN KEY (RolePersonnage) REFERENCES Role(numRole),
+FOREIGN KEY (RolePersonnage) REFERENCES RoleRole(numRoleRole),
 PRIMARY KEY (numPersonnage)
 );
 
