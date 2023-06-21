@@ -19,7 +19,7 @@ DROP TABLE Evenement;
 
 CREATE TABLE Specialite (
     numSpecialite NUMBER PRIMARY KEY,
-    nomSpecialite VARCHAR(25)
+    nomSpecialite VARCHAR(50)
 );
 
 
@@ -27,13 +27,13 @@ CREATE TABLE Specialite (
 -------------------------------------------------------------------ROLE--------------------------------------------------------------------------------
 CREATE TABLE RoleRole(
   numRoleRole NUMBER PRIMARY KEY,
-  nomRoleRole VARCHAR(25)
+  nomRoleRole VARCHAR(50)
 );
  
 -------------------------------------------------------------------CLAN--------------------------------------------------------------------------------
 CREATE TABLE Clan(
   numClan NUMBER,
-  nomClan VARCHAR(25),
+  nomClan VARCHAR(50),
   descriptionClan VARCHAR(255),
   PRIMARY KEY (numClan)
 ) ;
@@ -43,7 +43,7 @@ CREATE TABLE Clan(
 
 CREATE TABLE Arc(
   numArc NUMBER,
-  nomArc VARCHAR(25),
+  nomArc VARCHAR(50),
   descriptionArc VARCHAR(255),
   PRIMARY KEY (numArc)
 );
@@ -64,7 +64,7 @@ CREATE TABLE Saison(
 --------------------------------EPISODE-------------------------------------------------
 CREATE TABLE Episode(
   numEpisode NUMBER,
-  nomEpisode VARCHAR(25),
+  nomEpisode VARCHAR(50),
   numeroEpisode NUMBER,
   tempEpisode VARCHAR(25),
   descriptionEpisode VARCHAR(255),
@@ -110,8 +110,8 @@ CREATE TABLE Rang (
 ---------------------------------------Personnage----------------------------------------------------
 CREATE TABLE Personnage(
 numPersonnage NUMBER,
-nomPersonnage VARCHAR(25),
-aliasPersonnage VARCHAR(25),
+nomPersonnage VARCHAR(50),
+aliasPersonnage VARCHAR(50),
 racePersonnage VARCHAR(25),
 agePersonnage NUMBER,
 sexPersonnage VARCHAR(25),

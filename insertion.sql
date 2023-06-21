@@ -78,7 +78,7 @@ INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnag
     INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
     (34, 'Garou''s Monster Association (Various)', 'Garou''s Monster Association', 'Monstre', 25, 'Varie', 'L''Association des monstres de Garou est un groupe de monstres puissants qui se rallient à Garou.');
     INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (35, 'Boros', 'Dominator of the Universe', 30, 'Unknown', 'Male', 'Boros est le chef des envahisseurs de l''espace et cherche des adversaires puissants.');
+    (35, 'Boros', 'Dominator of the Universe', 'Unknown',3 , 'Male', 'Boros est le chef des envahisseurs de l''espace et cherche des adversaires puissants.');
     INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
     (36, 'Gouketsu', 'Gouketsu', 'Humain Monstrifié', 26, 'Male', 'Gouketsu est un ancien champion des arts martiaux qui a été transformé en monstre puissant.');
     INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
@@ -206,8 +206,9 @@ INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnag
     (25, 'Force brute')
     ;
 --Insertion de la table 'Niveau'
-    INSERT INTO Niveau (numNiveau,numEpisode,numPersonnage,rangNiveau)VALUES (1,1,1,1)
-    ;
+   /* INSERT INTO Niveau (numNiveau,numEpisode,numPersonnage,rangNiveau)VALUES (1,1,1,1)
+    ;*/
+
 -- Insertion de la table 'Evenement' ------
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
     (1, 'Combat contre Deep Sea King');
@@ -231,7 +232,7 @@ INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnag
     (10, 'Combat contre Orochi');
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
     (11, 'Combat contre Black Sperm')
-    ;
+    
     
 --Insertion de la table 'Ville'
     INSERT INTO Ville(numVille,nomVille)VALUES
