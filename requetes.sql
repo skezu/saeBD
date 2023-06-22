@@ -77,12 +77,14 @@ FROM Personnage P1
 WHERE R.typeRelation='Ami' AND P2.nomPersonnage = 'Saitama' AND P1.sexePersonnage = 'M';
 
 -- 12. Donner la description de l’épisode précédent l’épisode X
-CREATE OR REPLACE FUNCTION descrPrec(numDeEpisode NUMBER) 
-RETURN NUMBER IS
-    descr VARCHAR2(30)
+CREATE OR REPLACE PROCEDURE descrPrec(numDeEpisode NUMBER) 
+IS
+    descr VARCHAR2(30);
 BEGIN
-    SELECT descriptionEpiode INTO descr
+    SELECT descriptionEpisode INTO descr
     FROM EPISODE
-    WHERE numEpisode = numDeEpisode-1
-    RETURN descr
+    WHERE numEpisode = numDeEpisode-1;
+
+	DBMS_OUTPUT.PUT_LINE(descr);
+
 END;
