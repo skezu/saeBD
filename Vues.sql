@@ -21,6 +21,7 @@ CREATE VIEW VueArcSaison AS
 SELECT a.numArc, a.nomArc, s.nomSaison
 FROM Arc a
 JOIN Saison s ON a.numArc = s.Arc;
+
 ---------Vue "VueClanPersonnage" :
 CREATE VIEW VueClanPersonnage AS
 SELECT c.numClan, c.nomClan, p.nomPersonnage
