@@ -75,3 +75,14 @@ FROM Personnage P1
  INNER JOIN EST_EN_RELATION_AVEC R ON P1.numPersonnage = R.numPersonnage
  INNER JOIN EST_EN_RELATION_AVEC R2 ON P2.numPersonnage = R2.numPersonnage
 WHERE R.typeRelation='Ami' AND P2.nomPersonnage = 'Saitama' AND P1.sexePersonnage = 'M';
+
+-- 12. Donner la description de l’épisode précédent l’épisode X
+CREATE OR REPLACE FUNCTION descrPrec(numDeEpisode NUMBER) 
+RETURN NUMBER IS
+    descr VARCHAR2(30)
+BEGIN
+    SELECT descriptionEpiode INTO descr
+    FROM EPISODE
+    WHERE numEpisode = numDeEpisode-1
+    RETURN descr
+END;
