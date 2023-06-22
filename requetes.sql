@@ -77,14 +77,28 @@ FROM Personnage P1
 WHERE R.typeRelation='Ami' AND P2.nomPersonnage = 'Saitama' AND P1.sexePersonnage = 'M';
 
 -- 12. Donner la description de l’épisode précédent l’épisode X
-CREATE OR REPLACE PROCEDURE descrPrec(numDeEpisode NUMBER) 
+CREATE OR REPLACE PROCEDURE descrPrec1(numDeEpisode NUMBER) 
 IS
-    descr VARCHAR2(30);
+    descr VARCHAR2(60);
 BEGIN
     SELECT descriptionEpisode INTO descr
     FROM EPISODE
     WHERE numEpisode = numDeEpisode-1;
 
 	DBMS_OUTPUT.PUT_LINE(descr);
+
+END;
+
+-- 13. Donner le nombre d’épisodes de la saison X
+CREATE OR REPLACE PROCEDURE nbEpisode(numDeSaison NUMBER)
+IS
+    nbEpisode NUMBER;
+BEGIN
+    SELECT COUNT(numEpisode) INTO nbEpisode
+    FROM saison S
+    INNER JOIN Episode e ON e.saison = s.numSaison
+    WHERE numSaison = numDeSaison;
+
+    DBMS_OUTPUT.PUT_LINE(nbEpisode);
 
 END;
