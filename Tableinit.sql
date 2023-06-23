@@ -25,7 +25,7 @@ CREATE TABLE Specialite (
 
 
 -------------------------------------------------------------------ROLE--------------------------------------------------------------------------------
-CREATE TABLE Role(
+CREATE TABLE RoleRole(
   numRoleRole NUMBER PRIMARY KEY,
   nomRoleRole VARCHAR(50)
 );
