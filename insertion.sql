@@ -467,9 +467,9 @@ INSERT INTO Personnage Values
     INSERT INTO SpecialitePersonnage VALUES (9,6);
     INSERT INTO SpecialitePersonnage VALUES (10,8);
 
-    INSERT INTO Relation VALUES (1,3,"amie");
-    INSERT INTO Relation VALUES (5,2,"enemie");
-    INSERT INTO Relation VALUES (3,4,"amie");
-    INSERT INTO Relation VALUES (9,10,"maitre, élève");
-    INSERT INTO Relation VALUES (12,23,"viral");
-    INSERT INTO Relation VALUES (10,12,"père, fils");
+    INSERT INTO Relation VALUES (1,3,'amie');
+    INSERT INTO Relation VALUES (5,2,'enemie');
+    INSERT INTO Relation VALUES (3,4,'amie');
+    INSERT INTO Relation VALUES (9,10,'maitre, élève');
+    INSERT INTO Relation VALUES (12,23,'viral');
+    INSERT INTO Relation VALUES (10,12,'père, fils');
