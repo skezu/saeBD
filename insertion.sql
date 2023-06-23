@@ -1,103 +1,101 @@
 --Insertion rangs
-INSERT INTO Rang (numRang, nomRang) VALUES (1, 'Classe S');
-INSERT INTO Rang (numRang, nomRang) VALUES (2, 'Classe A');
-INSERT INTO Rang (numRang, nomRang) VALUES (3, 'Classe B');
-INSERT INTO Rang (numRang, nomRang) VALUES (4, 'Classe C');
-INSERT INTO Rang (numRang, nomRang) VALUES (5, 'Dieu');
-INSERT INTO Rang (numRang, nomRang) VALUES (6, 'Dragon');
-INSERT INTO Rang (numRang, nomRang) VALUES (7, 'Demon');
-INSERT INTO Rang (numRang, nomRang) VALUES (8, 'Tigre');
+INSERT INTO Rang VALUES (1, 'Classe S');
+INSERT INTO Rang VALUES (2, 'Classe A');
+INSERT INTO Rang VALUES (3, 'Classe B');
+INSERT INTO Rang VALUES (4, 'Classe C');
+INSERT INTO Rang VALUES (5, 'Dieu');
+INSERT INTO Rang VALUES (6, 'Dragon');
+INSERT INTO Rang VALUES (7, 'Demon');
+INSERT INTO Rang VALUES (8, 'Tigre');
 
 --Insertion personnages
-INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (1, 'Saitama', 'One Punch Man', 'Humain', 25, 'Homme', 'Saitama est un super-héros extrêmement puissant qui peut vaincre n importe quel ennemi en un seul coup.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (2, 'Genos', 'Demon Cyborg', 'Cyborg', 19, 'Homme', 'Genos est un cyborg qui est disciple de Saitama et cherche à devenir plus fort.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (3, 'Tatsumaki', 'Tornado of Terror', 'Humain', 28, 'Femme', 'Tatsumaki est une super-héroïne dotée de pouvoirs psychiques qui peut manipuler les objets avec sa télékinésie.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (4, 'Bang', 'Silver Fang', 'Humain', 81, 'Homme', 'Bang est un maître des arts martiaux et le fondateur de l''Association des héros.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (5, 'Fubuki', 'Blizzard of Hell', 'Humain', 23, 'Femme', 'Fubuki est une super-héroïne qui dirige le Groupe Blizzard, une équipe de héros de classe B.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (6, 'Atomic Samurai', 'Atomic Samurai', 'Humain', 37, 'Homme', 'Atomic Samurai est un héros de classe S qui manie un sabre avec une précision mortelle.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (7, 'Child Emperor', 'Child Emperor', 'Humain', 10, 'Homme', 'Child Emperor est un jeune prodige qui est membre de l''Association des héros.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (8, 'Metal Knight', 'Metal Knight', 'Humain', 35, 'Homme', 'Metal Knight est un super-héros qui utilise des robots pour combattre les ennemis.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (9, 'King', 'The Strongest Man on Earth', 'Humain', 29, 'Homme', 'King est un héros de classe S, mais en réalité, il est totalement sans pouvoir et vit de la réputation de Saitama.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (10, 'Zombieman', 'Zombieman', 'Humain', 22, 'Homme', 'Zombieman est un héros immortel qui peut guérir de toutes les blessures.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (11, 'Drive Knight', 'Drive Knight', 'Inconnu', 19, 'Inconnu', 'Drive Knight est un membre de classe S de l''Association des héros dont le véritable but et les motivations sont inconnus.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (12, 'Pig God', 'Pig God', 'Humain', 24, 'Homme', 'Pig God est un héros de classe S qui a une apparence dégoûtante et possède une énorme appétit.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (13, 'Superalloy Darkshine', 'Superalloy Darkshine', 'Humain', 29, 'Homme', 'Superalloy Darkshine est un héros de classe S doté d''une peau métallique et d''une force surhumaine.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (14, 'Watchdog Man', 'Watchdog Man', 'Inconnu', 25, 'Homme', 'Watchdog Man est un héros mystérieux qui protège la ville de Q-City et est toujours accompagné de nombreux chiens.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (15, 'Flashy Flash', 'Flashy Flash', 'Humain', 25, 'Homme', 'Flashy Flash est un héros de classe S extrêmement rapide et habile avec ses lames.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (16, 'Tanktop Master', 'Tanktop Master', 'Humain', 37, 'Homme', 'Tanktop Master est un héros de classe S qui porte un débardeur et se spécialise dans les techniques de combat avec sa tenue.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (17, 'Metal Bat', 'Metal Bat', 'Humain', 17, 'Homme', 'Metal Bat est un héros de classe S qui se bat avec une batte de métal et devient plus fort à mesure qu''il subit des blessures.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (18, 'Puri-Puri Prisoner', 'Puri-Puri Prisoner', 'Humain', 22, 'Homme', 'Puri-Puri Prisoner est un héros de classe S qui a une apparence de prisonnier et possède une force immense.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (19, 'Amai Mask', 'Amai Mask', 'Humain', 26, 'Homme', 'Amai Mask est un héros de classe A qui est également une célèbre idole et se soucie beaucoup de son apparence.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (20, 'Sonic', 'Speed-o''-Sound Sonic', 'Humain', 25, 'Homme', 'Sonic est un ninja professionnel et un rival de Saitama, il possède une vitesse et une agilité exceptionnelles.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (21, 'Garou', 'Garou', 'Humain', 24, 'Homme', 'Garou est un ancien disciple de Bang et est devenu un chasseur de héros puissant, il souhaite devenir le monstre ultime.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (22, 'Mumen Rider', 'Mumen Rider', 'Humain', 18, 'Homme', 'Mumen Rider est un héros de classe C qui fait de son mieux pour protéger les innocents malgré sa faiblesse.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (23, 'Lily', 'Blizzard Group - Lily', 'Humain', 20, 'Femme', 'Lily est membre du Groupe Blizzard et utilise ses pouvoirs de manipulation de l''eau pour combattre les ennemis.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (24, 'Piko', 'Blizzard Group - Piko', 'Humain', 25, 'Homme', 'Piko est membre du Groupe Blizzard et utilise des armes à feu pour se battre contre les ennemis.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (25, 'Mizuki', 'Blizzard Group - Mizuki', 'Humain', 23, 'Femme', 'Mizuki est membre du Groupe Blizzard et utilise des attaques basées sur le son pour combattre les ennemis.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (26, 'Sitch', 'Sitch', 'Humain', 30, 'Homme', 'Sitch est un membre important de l''Association des héros et joue un rôle clé dans la coordination des héros.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (27, 'Dr. Genus', 'Dr. Genus', 'Humain', 50, 'Homme', 'Dr. Genus est le fondateur de l''House of Evolution, une organisation qui cherche à créer des êtres surhumains.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (28, 'Mosquito Girl', 'Mosquito Girl', 'Monstre', 24, 'Femme', 'Mosquito Girl est un monstre créé par l''House of Evolution avec une apparence mi-humaine, mi-moustique.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (29, 'Carnage Kabuto', 'Carnage Kabuto', 'Monstre', 25, 'Homme', 'Carnage Kabuto est un monstre créé par l''House of Evolution qui possède une force et une résistance incroyables.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (30, 'Vaccine Man', 'Vaccine Man', 'Monstre', 20, 'Inconnu', 'Vaccine Man est un monstre puissant qui apparaît lors du premier incident de monstres dans l''histoire.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (31, 'Deep Sea King', 'Deep Sea King', 'Monstre', 20, 'Homme', 'Deep Sea King est un monstre qui règne sur les océans et possède une force et une endurance incroyables.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (32, 'Hammerhead', 'Hammerhead', 'Humain', 30, 'Homme', 'Hammerhead est un chef de gang qui utilise un casque en forme de marteau et cherche à renverser le système des héros.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (33, 'Sea King', 'Sea King', 'Monstre', 27, 'Homme', 'Sea King est un monstre puissant qui attaque la ville et défie les héros pour combattre.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
-    (34, 'Garou''s Monster Association (Various)', 'Garou''s Monster Association', 'Monstre', 25, 'Varie', 'L''Association des monstres de Garou est un groupe de monstres puissants qui se rallient à Garou.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+INSERT INTO Personnage Values
+    (1, 'Saitama', 'One Punch Man', 'Humain', 25, 'Homme', 'Saitama est un super-héros extrêmement puissant qui peut vaincre n importe quel ennemi en un seul coup.',1,1,1);
+    INSERT INTO Personnage Values
+    (2, 'Genos', 'Demon Cyborg', 'Cyborg', 19, 'Homme', 'Genos est un cyborg qui est disciple de Saitama et cherche à devenir plus fort.',1,1,1);
+    INSERT INTO Personnage Values
+    (3, 'Tatsumaki', 'Tornado of Terror', 'Humain', 28, 'Femme', 'Tatsumaki est une super-héroïne dotée de pouvoirs psychiques qui peut manipuler les objets avec sa télékinésie.',null,1,1);
+    INSERT INTO Personnage Values
+    (4, 'Bang', 'Silver Fang', 'Humain', 81, 'Homme', 'Bang est un maître des arts martiaux et le fondateur de l''Association des héros.',null,1,1);
+    INSERT INTO Personnage Values
+    (5, 'Fubuki', 'Blizzard of Hell', 'Humain', 23, 'Femme', 'Fubuki est une super-héroïne qui dirige le Groupe Blizzard, une équipe de héros de classe B.',null,2,1);
+    INSERT INTO Personnage Values
+    (6, 'Atomic Samurai', 'Atomic Samurai', 'Humain', 37, 'Homme', 'Atomic Samurai est un héros de classe S qui manie un sabre avec une précision mortelle.',null,1,1);
+    INSERT INTO Personnage Values
+    (7, 'Child Emperor', 'Child Emperor', 'Humain', 10, 'Homme', 'Child Emperor est un jeune prodige qui est membre de l''Association des héros.',null,1,1);
+    INSERT INTO Personnage Values
+    (8, 'Metal Knight', 'Metal Knight', 'Humain', 35, 'Homme', 'Metal Knight est un super-héros qui utilise des robots pour combattre les ennemis.',null,1,1);
+    INSERT INTO Personnage Values
+    (9, 'King', 'The Strongest Man on Earth', 'Humain', 29, 'Homme', 'King est un héros de classe S, mais en réalité, il est totalement sans pouvoir et vit de la réputation de Saitama.',null,1,1);
+    INSERT INTO Personnage Values
+    (10, 'Zombieman', 'Zombieman', 'Humain', 22, 'Homme', 'Zombieman est un héros immortel qui peut guérir de toutes les blessures.',null,1,1);
+    INSERT INTO Personnage Values
+    (11, 'Drive Knight', 'Drive Knight', 'Inconnu', 19, 'Inconnu', 'Drive Knight est un membre de classe S de l''Association des héros dont le véritable but et les motivations sont inconnus.',null,1,1);
+    INSERT INTO Personnage Values
+    (12, 'Pig God', 'Pig God', 'Humain', 24, 'Homme', 'Pig God est un héros de classe S qui a une apparence dégoûtante et possède une énorme appétit.',null,1,1);
+    INSERT INTO Personnage Values
+    (13, 'Superalloy Darkshine', 'Superalloy Darkshine', 'Humain', 29, 'Homme', 'Superalloy Darkshine est un héros de classe S doté d''une peau métallique et d''une force surhumaine.',null,1,1);
+    INSERT INTO Personnage Values
+    (14, 'Watchdog Man', 'Watchdog Man', 'Inconnu', 25, 'Homme', 'Watchdog Man est un héros mystérieux qui protège la ville de Q-City et est toujours accompagné de nombreux chiens.',6,1,1);
+    INSERT INTO Personnage Values
+    (15, 'Flashy Flash', 'Flashy Flash', 'Humain', 25, 'Homme', 'Flashy Flash est un héros de classe S extrêmement rapide et habile avec ses lames.',null,10,3);
+    INSERT INTO Personnage Values
+    (16, 'Tanktop Master', 'Tanktop Master', 'Humain', 37, 'Homme', 'Tanktop Master est un héros de classe S qui porte un débardeur et se spécialise dans les techniques de combat avec sa tenue.',null,1,1);
+    INSERT INTO Personnage Values
+    (17, 'Metal Bat', 'Metal Bat', 'Humain', 17, 'Homme', 'Metal Bat est un héros de classe S qui se bat avec une batte de métal et devient plus fort à mesure qu''il subit des blessures.',null,1,1);
+    INSERT INTO Personnage Values
+    (18, 'Puri-Puri Prisoner', 'Puri-Puri Prisoner', 'Humain', 22, 'Homme', 'Puri-Puri Prisoner est un héros de classe S qui a une apparence de prisonnier et possède une force immense.',null,1,1);
+    INSERT INTO Personnage Values
+    (19, 'Amai Mask', 'Amai Mask', 'Humain', 26, 'Homme', 'Amai Mask est un héros de classe A qui est également une célèbre idole et se soucie beaucoup de son apparence.',null,1,1);
+    INSERT INTO Personnage Values
+    (20, 'Sonic', 'Speed-o''-Sound Sonic', 'Humain', 25, 'Homme', 'Sonic est un ninja professionnel et un rival de Saitama, il possède une vitesse et une agilité exceptionnelles.',null,10,3);
+    INSERT INTO Personnage Values
+    (21, 'Garou', 'Garou', 'Humain', 24, 'Homme', 'Garou est un ancien disciple de Bang et est devenu un chasseur de héros puissant, il souhaite devenir le monstre ultime.',null,null,7);
+    INSERT INTO Personnage Values
+    (22, 'Mumen Rider', 'Mumen Rider', 'Humain', 18, 'Homme', 'Mumen Rider est un héros de classe C qui fait de son mieux pour protéger les innocents malgré sa faiblesse.',null,1,1);
+    INSERT INTO Personnage Values
+    (23, 'Lily', 'Blizzard Group - Lily', 'Humain', 20, 'Femme', 'Lily est membre du Groupe Blizzard et utilise ses pouvoirs de manipulation de l''eau pour combattre les ennemis.',null,2,1);
+    INSERT INTO Personnage Values
+    (24, 'Piko', 'Blizzard Group - Piko', 'Humain', 25, 'Homme', 'Piko est membre du Groupe Blizzard et utilise des armes à feu pour se battre contre les ennemis.',null,2,1);
+    INSERT INTO Personnage Values
+    (25, 'Mizuki', 'Blizzard Group - Mizuki', 'Humain', 23, 'Femme', 'Mizuki est membre du Groupe Blizzard et utilise des attaques basées sur le son pour combattre les ennemis.',null,2,1);
+    INSERT INTO Personnage Values
+    (26, 'Sitch', 'Sitch', 'Humain', 30, 'Homme', 'Sitch est un membre important de l''Association des héros et joue un rôle clé dans la coordination des héros.',null,1,6);
+    INSERT INTO Personnage Values
+    (27, 'Dr. Genus', 'Dr. Genus', 'Humain', 50, 'Homme', 'Dr. Genus est le fondateur de l''House of Evolution, une organisation qui cherche à créer des êtres surhumains.',null,null,5);
+    INSERT INTO Personnage Values
+    (28, 'Mosquito Girl', 'Mosquito Girl', 'Monstre', 24, 'Femme', 'Mosquito Girl est un monstre créé par l''House of Evolution avec une apparence mi-humaine, mi-moustique.',null,5,2);
+    INSERT INTO Personnage Values
+    (29, 'Carnage Kabuto', 'Carnage Kabuto', 'Monstre', 25, 'Homme', 'Carnage Kabuto est un monstre créé par l''House of Evolution qui possède une force et une résistance incroyables.',null,4,2);
+    INSERT INTO Personnage Values
+    (30, 'Vaccine Man', 'Vaccine Man', 'Monstre', 20, 'Inconnu', 'Vaccine Man est un monstre puissant qui apparaît lors du premier incident de monstres dans l''histoire.',null,5,2);
+    INSERT INTO Personnage Values
+    (31, 'Deep Sea King', 'Deep Sea King', 'Monstre', 20, 'Homme', 'Deep Sea King est un monstre qui règne sur les océans et possède une force et une endurance incroyables.',null,12,2);
+    INSERT INTO Personnage Values
+    (32, 'Hammerhead', 'Hammerhead', 'Humain', 30, 'Homme', 'Hammerhead est un chef de gang qui utilise un casque en forme de marteau et cherche à renverser le système des héros.',null,9,7);
+    INSERT INTO Personnage Values
+    (33, 'Sea King', 'Sea King', 'Monstre', 27, 'Homme', 'Sea King est un monstre puissant qui attaque la ville et défie les héros pour combattre.',null,5,2);
+    /*INSERT INTO Personnage Values
     (35, 'Boros', 'Dominator of the Universe', 'Unknown',3 , 'Male', 'Boros est le chef des envahisseurs de l''espace et cherche des adversaires puissants.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+    INSERT INTO Personnage Values
     (36, 'Gouketsu', 'Gouketsu', 'Humain Monstrifié', 26, 'Male', 'Gouketsu est un ancien champion des arts martiaux qui a été transformé en monstre puissant.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+    INSERT INTO Personnage Values
     (37, 'Elder Centipede', 'Elder Centipede', 'Monstre', 34, 'Unknown', 'Elder Centipede est un énorme monstre en forme de centipède qui est l''un des plus puissants membres de l''Association des monstres.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+    INSERT INTO Personnage Values
     (38, 'Overgrown Rover', 'Overgrown Rover', 'Monstre', 20, 'Unknown', 'Overgrown Rover est un monstre géant en forme de chien qui garde l''entrée du repaire de l''Association des monstres.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+    INSERT INTO Personnage Values
     (39, 'Evil Natural Water', 'Evil Natural Water', 'Monstre', 25, 'Unknown', 'Evil Natural Water est un monstre créé à partir de l''eau contaminée par les déchets toxiques.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+    INSERT INTO Personnage Values
     (40, 'Black Sperm', 'Black Sperm', 'Monstre', 28, 'Unknown', 'Black Sperm est un monstre en forme de sperme qui peut se diviser en de nombreux clones.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+    INSERT INTO Personnage Values
     (41, 'Homeless Emperor', 'Homeless Emperor', 'Humain Monstrifié', 21, 'Male', 'Homeless Emperor est un humain qui a obtenu des pouvoirs destructeurs après avoir été exposé à une météorite.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+    INSERT INTO Personnage Values
     (42, 'Gums', 'Gums', 'Monstre', 23, 'Unknown', 'Gums est un monstre sans peau avec une bouche géante et des dents acérées.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+    INSERT INTO Personnage Values
     (43, 'Fuhrer Ugly', 'Fuhrer Ugly', 'Monstre', 31, 'Male', 'Fuhrer Ugly est un monstre défiguré avec une apparence repoussante et une force brute.');
-    INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnage,agePersonnage,sexPersonnage,descriptionPersonnage)Values
+    INSERT INTO Personnage Values
     (44, 'Psykos', 'Psykos', 'Humain Monstrifié', 22, 'Female', 'Psykos est une télépathe puissante qui a fusionné avec un monstre pour augmenter ses pouvoirs et son apparence.')
-;
+;*/
 
 --Insertion de la table Clan
     INSERT INTO Clan(numClan,nomClan,descriptionClan)VALUES
@@ -473,4 +471,3 @@ INSERT INTO Personnage(numPersonnage,nomPersonnage,aliasPersonnage,racePersonnag
     INSERT INTO Lieu(numLieu, nomLieu,descriptionLieu,villeLieu) VALUES
     (32, 'Quartier de la justice', 'Un lieu où se trouvent les tribunaux, les bureaux des avocats et les institutions juridiques.',1)
     ;
-    
