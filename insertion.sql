@@ -78,7 +78,7 @@ INSERT INTO Personnage Values
 
 --Insertion de la table Clan
     INSERT INTO Clan(numClan,nomClan,descriptionClan)VALUES
-     (1, 'Association des héros', 'L''Association des héros est une organisation qui rassemble les héros et les aide à lutter contre les menaces.');
+    (1, 'Association des héros', 'L''Association des héros est une organisation qui rassemble les héros et les aide à lutter contre les menaces.');
      INSERT INTO Clan(numClan,nomClan,descriptionClan)VALUES
     (2, 'Groupe Blizzard', 'Le Groupe Blizzard est une équipe de héros de classe B dirigée par Fubuki, également connue sous le nom de Blizzard of Hell.');
     INSERT INTO Clan(numClan,nomClan,descriptionClan)VALUES
@@ -219,19 +219,19 @@ INSERT INTO Personnage Values
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
     (4, 'Combat contre Garou');
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (5, 'Combat contre Boros');
+    (5, 'Combat contre Piko');
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (6, 'Combat contre Gouketsu');
+    (6, 'Combat contre Saitama');
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (7, 'Combat contre Elder Centipede');
+    (7, 'Combat contre Puri-Puri Prisoner');
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (8, 'Combat contre Evil Natural Water');
+    (8, 'Combat contre Mumen Rider');
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (9, 'Combat contre Psykos');
+    (9, 'Combat contre Watchdog Man');
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (10, 'Combat contre Orochi');
+    (10, 'Combat contre Zombieman');
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (11, 'Combat contre Black Sperm');
+    (11, 'Combat contre Drive Knight');
     
     
 --Insertion de la table 'Ville'
@@ -400,3 +400,43 @@ INSERT INTO Personnage Values
     INSERT INTO Lieu(numLieu, nomLieu,descriptionLieu,villeLieu) VALUES
     (32, 'Quartier de la justice', 'Un lieu où se trouvent les tribunaux, les bureaux des avocats et les institutions juridiques.',1)
     ;
+
+    INSERT INTO EpisodePersonnage VALUES (1,1);
+    INSERT INTO EpisodePersonnage VALUES (2,1);
+    INSERT INTO EpisodePersonnage VALUES (3,1);
+    INSERT INTO EpisodePersonnage VALUES (4,1);
+    INSERT INTO EpisodePersonnage VALUES (5,1);
+    INSERT INTO EpisodePersonnage VALUES (6,1);
+    INSERT INTO EpisodePersonnage VALUES (7,1);
+    INSERT INTO EpisodePersonnage VALUES (8,2);
+    INSERT INTO EpisodePersonnage VALUES (9,2);
+    INSERT INTO EpisodePersonnage VALUES (10,2);
+    INSERT INTO EpisodePersonnage VALUES (11,2);
+    INSERT INTO EpisodePersonnage VALUES (12,2);
+    INSERT INTO EpisodePersonnage VALUES (13,2);
+    INSERT INTO EpisodePersonnage VALUES (14,2);
+    INSERT INTO EpisodePersonnage VALUES (15,2);
+
+    INSERT INTO EvenementPersonnage VALUES (31,1); 
+    INSERT INTO EvenementPersonnage VALUES (29,2); 
+    INSERT INTO EvenementPersonnage VALUES (30,3); 
+    INSERT INTO EvenementPersonnage VALUES (21,4); 
+    INSERT INTO EvenementPersonnage VALUES (24,5); 
+    INSERT INTO EvenementPersonnage VALUES (1,6); 
+    INSERT INTO EvenementPersonnage VALUES (18,7);
+    INSERT INTO EvenementPersonnage VALUES (22,8);
+    INSERT INTO EvenementPersonnage VALUES (14,9);
+    INSERT INTO EvenementPersonnage VALUES (10,10);
+    INSERT INTO EvenementPersonnage VALUES (11,11);
+
+
+
+
+
+
+
+
+
+
+
+
