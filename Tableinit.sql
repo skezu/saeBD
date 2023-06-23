@@ -38,6 +38,9 @@ drop table EVENEMENT
 drop table EPISODE
 /
 
+drop table ARCSAISON
+/
+
 drop table SAISON
 /
 
@@ -111,12 +114,13 @@ CREATE TABLE ArcSaison(
 CREATE TABLE Episode(
                         numEpisode NUMBER,
                         nomEpisode VARCHAR(50),
-                        numeroEpisode NUMBER,
+                        numeroEpisode NUMBER check ( numeroEpisode > 0 ),
                         tempEpisode VARCHAR(25),
                         descriptionEpisode VARCHAR(255),
-                        saison NUMBER,
+                        saison NUMBER check ( saison >= 1 ),
                         FOREIGN KEY (saison) REFERENCES Saison(numSaison),
-                        PRIMARY KEY (numEpisode)
+                        PRIMARY KEY (numEpisode),
+                        CONSTRAINT EpisodeDoublons UNIQUE (numeroEpisode, saison)
 );
 
 ------------------------------------------------VILLE---------------------------------------
@@ -170,7 +174,9 @@ CREATE TABLE Personnage(
                            FOREIGN KEY (rangPersonnage) REFERENCES Rang(numRang),
                            FOREIGN KEY (Clan) REFERENCES Clan(numClan),
                            FOREIGN KEY (RolePersonnage) REFERENCES RoleRole(numRoleRole),
-                           PRIMARY KEY (numPersonnage)
+                           PRIMARY KEY (numPersonnage),
+                           CONSTRAINT checkSexe CHECK ( sexPersonnage in ('M', 'F', 'X') ),
+                           constraint checkAge CHECK ( agePersonnage > 0 )
 );
 
 ------------------------------------------------------------RELATION------------------------------------------------------------
