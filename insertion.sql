@@ -210,28 +210,26 @@ INSERT INTO Personnage Values
     ;
 
 -- Insertion de la table 'Evenement' ------
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (1, 'Combat contre Deep Sea King');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (2, 'Combat contre Carnage Kabuto');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (3, 'Combat contre Vaccine Man');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (4, 'Combat contre Garou');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (5, 'Combat contre Piko');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (6, 'Combat contre Saitama');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (7, 'Combat contre Puri-Puri Prisoner');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (8, 'Combat contre Mumen Rider');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (9, 'Combat contre Watchdog Man');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (10, 'Combat contre Zombieman');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (11, 'Combat contre Drive Knight');
+    INSERT INTO Evenement  Values
+    (1, 'Combat contre Deep Sea King',1,24);
+    INSERT INTO Evenement  Values
+    (2, 'Combat contre Carnage Kabuto',3,14);
+    INSERT INTO Evenement  Values
+    (3, 'Combat contre Vaccine Man',4,7);
+    INSERT INTO Evenement  Values
+    (4, 'Combat contre Garou',2,2);
+    INSERT INTO Evenement  Values
+    (5, 'Combat contre Boros',13,18);
+    INSERT INTO Evenement  Values
+    (6, 'Combat contre Gouketsu',17,30);
+    INSERT INTO Evenement  Values
+    (7, 'Combat contre Elder Centipede',14,27);
+    INSERT INTO Evenement  Values
+    (8, 'Combat contre Evil Natural Water',16,16);
+    INSERT INTO Evenement  Values
+    (9, 'Combat contre Psykos',20,28);
+    INSERT INTO Evenement  Values
+    (10, 'Combat contre Orochi',24,2);
     
     
 --Insertion de la table 'Ville'
