@@ -281,129 +281,56 @@ INSERT INTO Personnage Values
     (1, 'Saison 1', 1, 'La première saison de One Punch Man suit les aventures de Saitama, un super-héros surpuissant qui cherche un adversaire à sa mesure.');
     INSERT INTO Saison(numSaison,nomSaison,numeroSaison,descriptionSaison)VALUES
     (2, 'Saison 2', 2, 'La deuxième saison de One Punch Man continue les exploits de Saitama alors qu''il affronte de nouveaux ennemis et fait face à des défis encore plus grands.');
-    INSERT INTO Saison(numSaison,nomSaison,numeroSaison,descriptionSaison)VALUES
-    (3, 'Saison 3', 3, 'La troisième saison de One Punch Man promet de nouvelles aventures palpitantes pour Saitama et ses camarades, avec l''introduction de nouveaux personnages et de nouveaux dangers à affronter.');
-    INSERT INTO Saison(numSaison,nomSaison,numeroSaison,descriptionSaison)VALUES
-    (4, 'Saison 4', 4, 'La quatrième saison de One Punch Man explorera davantage l''univers riche de la série, avec des combats épiques, des révélations surprenantes et de l''action à couper le souffle.');
-    
+   
 --Insertion de la table 'Episode'    
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (1, 'L''homme le plus fort du monde', 1, '24 min', 'Saitama fait face à Vaccine Man, un puissant monstre qui attaque la ville.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (2, 'Le cyborg solitaire', 2, '24 min', 'Genos, un cyborg disciple de Saitama, raconte son histoire et son désir de devenir plus fort.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (3, 'Le secret de la puissance', 3, '24 min', 'Saitama révèle son entraînement intense qui lui a donné sa puissance surhumaine.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (4, 'Le ninja des temps modernes', 4, '24 min', 'Sonic, un ninja professionnel, défie Saitama dans un combat.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (5, 'Le terrifiant Empereur de la mer', 5, '24 min', 'Le Deep Sea King, un puissant monstre des océans, attaque la ville et défie les héros.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (6, 'La prophétie', 6, '24 min', 'Une prophétie inquiétante met en garde contre l''arrivée d''une catastrophe imminente.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (7, 'L''associé de l''ombre', 7, '24 min', 'Saitama rencontre un énigmatique héros de classe S qui travaille dans l''ombre.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (8, 'Le roi des profondeurs', 8, '24 min', 'Le Deep Sea King fait face à plusieurs héros, dont Saitama.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (9, 'Le chasseur de héros', 9, '24 min', 'Garou, un ancien disciple de Bang, se met en quête de combattre et de vaincre les héros.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (10, 'La bataille finale', 10, '24 min', 'Saitama affronte Boros, le chef des envahisseurs de l''espace, dans un combat épique.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (11, 'Le retour de la Terre', 11, '24 min', 'Les héros de classe S et Saitama font face à la menace d''une invasion de monstres.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (12, 'Le scientifique fou', 12, '24 min', 'Un scientifique dément crée une armée de monstres et défie les héros.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (13, 'Le tournoi des arts martiaux', 13, '24 min', 'Saitama participe à un tournoi d''arts martiaux pour tester ses compétences.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (14, 'La folie du roi', 14, '24 min', 'Le roi des monstres, Orochi, lance une attaque dévastatrice sur la ville.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (15, 'La prophétie se réalise', 15, '24 min', 'La prophétie annoncée précédemment commence à se réaliser, mettant en péril l''humanité.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (16, 'Le maître suprême', 16, '24 min', 'Saitama rencontre le maître suprême, un mystérieux personnage aux pouvoirs incroyables.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (17, 'Le monstre invincible', 17, '24 min', 'Un monstre invincible apparaît et défie tous les héros de la classe S.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (18, 'Le complot révélé', 18, '24 min', 'Un complot se dévoile, révélant l''existence d''une organisation secrète derrière les monstres.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (19, 'La menace ultime', 19, '24 min', 'Une menace ultime se profile, nécessitant la réunion de tous les héros pour la combattre.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (20, 'Le dernier espoir', 20, '24 min', 'Saitama utilise son pouvoir ultime pour affronter la menace ultime et sauver l''humanité.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (21, 'L''ombre mystérieuse', 21, '24 min', 'Une mystérieuse ombre apparaît, semant le chaos dans la ville.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (22, 'La revanche du cyborg', 22, '24 min', 'Genos affronte un puissant cyborg qui cherche à se venger.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (23, 'L''ultime confrontation', 23, '24 min', 'Saitama fait face à son plus grand défi lorsqu''il affronte un ennemi redoutable.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (24, 'Le secret dévoilé', 24, '24 min', 'Le secret derrière les pouvoirs de Saitama est enfin révélé.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (25, 'La guerre des monstres', 25, '24 min', 'Une guerre éclate entre les héros et les monstres, mettant en péril l''existence même de la civilisation.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (26, 'Le destin des héros', 26, '24 min', 'Le destin des héros est scellé lorsqu''ils affrontent le chef suprême des monstres.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (27, 'Le retour du roi', 27, '24 min', 'Le roi des monstres revient plus puissant que jamais, défiant les héros dans une bataille épique.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (28, 'La renaissance', 28, '24 min', 'Après une défaite dévastatrice, les héros se relèvent et se préparent à affronter une nouvelle menace.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (29, 'Le pouvoir de l''amitié', 29, '24 min', 'Les héros découvrent que le véritable pouvoir réside dans l''amitié et l''unité.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (30, 'Le dernier combat', 30, '24 min', 'Saitama se lance dans son dernier combat pour protéger ce qui lui est cher.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (31, 'La menace du ciel', 31, '24 min', 'Une menace venue du ciel s''abat sur la ville, mettant à l''épreuve les héros.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (32, 'Le retour du rival', 32, '24 min', 'Le rival de Saitama refait surface et cherche à prouver sa valeur.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (33, 'La traque', 33, '24 min', 'Un dangereux criminel est en fuite, et les héros se lancent dans une traque sans merci.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (34, 'Le test ultime', 34, '24 min', 'Saitama doit passer un test ultime pour prouver sa force et sa détermination.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (35, 'La révélation', 35, '24 min', 'Une révélation choquante est faite, remettant en question tout ce que les héros croyaient savoir.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (36, 'L''affrontement final', 36, '24 min', 'L''affrontement final entre Saitama et son plus redoutable adversaire approche.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (37, 'Le sacrifice', 37, '24 min', 'Un héros fait un sacrifice ultime pour sauver la ville de la destruction.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (38, 'La résurrection', 38, '24 min', 'Un mystérieux pouvoir de résurrection entre en jeu, bouleversant l''équilibre des forces.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (39, 'Le pouvoir absolu', 39, '24 min', 'Saitama découvre le pouvoir absolu qui réside en lui, changeant à jamais le destin des héros.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (40, 'Le dernier souffle', 40, '24 min', 'Dans un dernier souffle d''énergie, Saitama se prépare à donner le coup de grâce à son adversaire.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (41, 'L''ombre du passé', 41, '24 min', 'Le passé mystérieux de Saitama refait surface, révélant des secrets longtemps enfouis.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (42, 'Le retour des monstres', 42, '24 min', 'Les monstres refont surface et attaquent la ville, mettant les héros à rude épreuve.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (43, 'L''alliance des héros', 43, '24 min', 'Les héros se rassemblent pour former une alliance afin de contrer la menace des monstres.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (44, 'Le combat décisif', 44, '24 min', 'Un combat décisif s''engage entre les héros et les monstres, déterminant le sort de la ville.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (45, 'Le secret de la force', 45, '24 min', 'Le secret de la force surhumaine de Saitama est enfin révélé, laissant tout le monde bouche bée.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (46, 'La trahison', 46, '24 min', 'Une trahison inattendue se produit au sein des rangs des héros, semant le chaos.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (47, 'La quête de la vérité', 47, '24 min', 'Saitama se lance dans une quête de vérité pour découvrir les véritables motivations de son adversaire.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (48, 'Le pouvoir destructeur', 48, '24 min', 'Un pouvoir destructeur sans précédent est libéré, menaçant de détruire la ville.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (49, 'Le dernier rempart', 49, '24 min', 'Les héros se regroupent pour former le dernier rempart contre la destruction imminente.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (50, 'Le combat ultime', 50, '24 min', 'Le combat ultime entre Saitama et son adversaire atteint son apogée, déterminant le sort du monde.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (51, 'La revanche', 51, '24 min', 'Les héros se préparent à prendre leur revanche contre l''ennemi redoutable qui les a vaincus autrefois.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (52, 'Le duel', 52, '24 min', 'Un duel épique éclate entre deux puissantes forces, chacune déterminée à prouver sa supériorité.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (53, 'L''ultime sacrifice', 53, '24 min', 'Un héros fait l''ultime sacrifice pour sauver ses camarades et protéger la ville de la destruction.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (54, 'L''espoir renaît', 54, '24 min', 'Malgré les épreuves, l''espoir renaît alors que de nouveaux héros se lèvent pour combattre le mal.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (55, 'Le retour triomphal', 55, '24 min', 'Saitama fait un retour triomphal, prouvant une fois de plus sa puissance inégalée.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (56, 'Le secret révélé', 56, '24 min', 'Un secret longtemps gardé est révélé, remettant en question tout ce que l''on croyait savoir.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (57, 'Le destin du monde', 57, '24 min', 'Le destin du monde repose entre les mains des héros, alors qu''ils affrontent leur plus grand défi.');
-    INSERT INTO Episode(numEpisode,nomEpisode,numeroEpisode,tempEpisode,descriptionEpisode)VALUES
-    (58, 'La victoire éclatante', 58, '24 min', 'Une victoire éclatante est remportée, apportant la paix et la prospérité à la ville et à ses habitants.')
-    ;
+    INSERT INTO Episode VALUES
+    (1, 'L''homme le plus fort du monde', 1, '24 min', 'Saitama fait face à Vaccine Man, un puissant monstre qui attaque la ville.',1);
+    INSERT INTO Episode VALUES
+    (2, 'Le cyborg solitaire', 2, '24 min', 'Genos, un cyborg disciple de Saitama, raconte son histoire et son désir de devenir plus fort.',1);
+    INSERT INTO Episode VALUES
+    (3, 'Le secret de la puissance', 3, '24 min', 'Saitama révèle son entraînement intense qui lui a donné sa puissance surhumaine.',1);
+    INSERT INTO Episode VALUES
+    (4, 'Le ninja des temps modernes', 4, '24 min', 'Sonic, un ninja professionnel, défie Saitama dans un combat.',1);
+    INSERT INTO Episode VALUES
+    (5, 'Le terrifiant Empereur de la mer', 5, '24 min', 'Le Deep Sea King, un puissant monstre des océans, attaque la ville et défie les héros.',1);
+    INSERT INTO Episode VALUES
+    (6, 'La prophétie', 6, '24 min', 'Une prophétie inquiétante met en garde contre l''arrivée d''une catastrophe imminente.',1);
+    INSERT INTO Episode VALUES
+    (7, 'L''associé de l''ombre', 7, '24 min', 'Saitama rencontre un énigmatique héros de classe S qui travaille dans l''ombre.',1);
+    INSERT INTO Episode VALUES
+    (8, 'Le roi des profondeurs', 8, '24 min', 'Le Deep Sea King fait face à plusieurs héros, dont Saitama.',1);
+    INSERT INTO Episode VALUES
+    (9, 'Le chasseur de héros', 9, '24 min', 'Garou, un ancien disciple de Bang, se met en quête de combattre et de vaincre les héros.',1);
+    INSERT INTO Episode VALUES
+    (10, 'La bataille finale', 10, '24 min', 'Saitama affronte Boros, le chef des envahisseurs de l''espace, dans un combat épique.',1);
+    INSERT INTO Episode VALUES
+    (11, 'Le retour de la Terre', 11, '24 min', 'Les héros de classe S et Saitama font face à la menace d''une invasion de monstres.',1);
+    INSERT INTO Episode VALUES
+    (12, 'Le scientifique fou', 12, '24 min', 'Un scientifique dément crée une armée de monstres et défie les héros.',1);
+    INSERT INTO Episode VALUES
+    (13, 'Le tournoi des arts martiaux', 1, '24 min', 'Saitama participe à un tournoi d''arts martiaux pour tester ses compétences.',2);
+    INSERT INTO Episode VALUES
+    (14, 'La folie du roi', 2, '24 min', 'Le roi des monstres, Orochi, lance une attaque dévastatrice sur la ville.',2);
+    INSERT INTO Episode VALUES
+    (15, 'La prophétie se réalise', 3, '24 min', 'La prophétie annoncée précédemment commence à se réaliser, mettant en péril l''humanité.',2);
+    INSERT INTO Episode VALUES
+    (16, 'Le maître suprême', 4, '24 min', 'Saitama rencontre le maître suprême, un mystérieux personnage aux pouvoirs incroyables.',2);
+    INSERT INTO Episode VALUES
+    (17, 'Le monstre invincible', 5, '24 min', 'Un monstre invincible apparaît et défie tous les héros de la classe S.',2);
+    INSERT INTO Episode VALUES
+    (18, 'Le complot révélé', 6, '24 min', 'Un complot se dévoile, révélant l''existence d''une organisation secrète derrière les monstres.',2);
+    INSERT INTO Episode VALUES
+    (19, 'La menace ultime', 7, '24 min', 'Une menace ultime se profile, nécessitant la réunion de tous les héros pour la combattre.',2);
+    INSERT INTO Episode VALUES
+    (20, 'Le dernier espoir', 8, '24 min', 'Saitama utilise son pouvoir ultime pour affronter la menace ultime et sauver l''humanité.',2);
+    INSERT INTO Episode VALUES
+    (21, 'L''ombre mystérieuse', 9, '24 min', 'Une mystérieuse ombre apparaît, semant le chaos dans la ville.',2);
+    INSERT INTO Episode VALUES
+    (22, 'La revanche du cyborg', 10, '24 min', 'Genos affronte un puissant cyborg qui cherche à se venger.',2);
+    INSERT INTO Episode VALUES
+    (23, 'L''ultime confrontation', 11, '24 min', 'Saitama fait face à son plus grand défi lorsqu''il affronte un ennemi redoutable.',2);
+    INSERT INTO Episode VALUES
+    (24, 'Le secret dévoilé', 12, '24 min', 'Le secret derrière les pouvoirs de Saitama est enfin révélé.',2);
    
 -- Insertion de la table lieu   
     INSERT INTO Lieu(numLieu, nomLieu,descriptionLieu,villeLieu) VALUES
