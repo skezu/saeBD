@@ -48,6 +48,17 @@ CREATE TABLE Arc(
   PRIMARY KEY (numArc)
 );
 
+
+
+--------------------ArcSaison----------------------------------------------
+CREATE TABLE ArcSaison(
+  numArc NUMBER,
+  numSaison NUMBER,
+  FOREIGN KEY (numArc) REFERENCES Arc(numArc),
+  FOREIGN KEY (numSaison) REFERENCES Saison(numSaison),
+  PRIMARY KEY (numArc,numSaison)
+);
+
 ---------------------------------------------- SAISON --------------------------------------------------------------------------------
 
 CREATE TABLE Saison(
@@ -56,7 +67,7 @@ CREATE TABLE Saison(
   numeroSaison NUMBER,
   descriptionSaison VARCHAR(255),
   Arc NUMBER,
-  FOREIGN KEY (Arc) REFERENCES Arc(numArc),
+  FOREIGN KEY (numSaison) REFERENCES ArcSaison(numSaison),
   PRIMARY KEY (numSaison)
 );
 
@@ -70,7 +81,10 @@ CREATE TABLE Episode(
   descriptionEpisode VARCHAR(255),
   saison NUMBER,
   FOREIGN KEY (saison) REFERENCES Saison(numSaison),
-  PRIMARY KEY (numEpisode)
+  PRIMARY KEY (numEpisode),
+  CHECK (saison >= 1),
+  CHECK (numeroEpisode > 0),
+  UNIQUE (numeroEpisode, saison)
 );
 
 ------------------------------------------------VILLE---------------------------------------
@@ -118,13 +132,13 @@ sexPersonnage VARCHAR(25),
 descriptionPersonnage VARCHAR(255),
 villePersonnage NUMBER,
 Clan NUMBER,
-rangPersonnage NUMBER,
 RolePersonnage NUMBER,
 FOREIGN KEY (villePersonnage) REFERENCES Ville(numVille),
-FOREIGN KEY (rangPersonnage) REFERENCES Rang(numRang),
 FOREIGN KEY (Clan) REFERENCES Clan(numClan),
 FOREIGN KEY (RolePersonnage) REFERENCES RoleRole(numRoleRole),
-PRIMARY KEY (numPersonnage)
+PRIMARY KEY (numPersonnage),
+CHECK (sexPersonnage IN ('M', 'F','X')),
+CHECK (agePersonnage > 0)
 );
 
 ------------------------------------------------------------RELATION------------------------------------------------------------
