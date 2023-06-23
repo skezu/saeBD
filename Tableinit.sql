@@ -51,7 +51,6 @@ drop table LIEU
 /
 
 drop table VILLE
-/
 */
 
 
@@ -202,11 +201,10 @@ CREATE TABLE EpisodePersonnage(
 
 -------------------------------------------------------------NIVEAU------------------------------------------------------------
 CREATE TABLE Niveau(
-                       numNiveau NUMBER,
                        numEpisode NUMBER,
                        numPersonnage NUMBER,
                        rangNiveau NUMBER,
-                       PRIMARY KEY (numNiveau,numEpisode,numPersonnage),
+                       PRIMARY KEY (numEpisode,numPersonnage),
                        FOREIGN KEY (numEpisode) REFERENCES Episode(numEpisode),
                        FOREIGN KEY (numPersonnage) REFERENCES Personnage(numPersonnage),
                        FOREIGN KEY (rangNiveau) REFERENCES Rang(numRang)
