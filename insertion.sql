@@ -78,7 +78,7 @@ INSERT INTO Personnage Values
 
 --Insertion de la table Clan
     INSERT INTO Clan(numClan,nomClan,descriptionClan)VALUES
-     (1, 'Association des héros', 'L''Association des héros est une organisation qui rassemble les héros et les aide à lutter contre les menaces.');
+    (1, 'Association des héros', 'L''Association des héros est une organisation qui rassemble les héros et les aide à lutter contre les menaces.');
      INSERT INTO Clan(numClan,nomClan,descriptionClan)VALUES
     (2, 'Groupe Blizzard', 'Le Groupe Blizzard est une équipe de héros de classe B dirigée par Fubuki, également connue sous le nom de Blizzard of Hell.');
     INSERT INTO Clan(numClan,nomClan,descriptionClan)VALUES
@@ -210,28 +210,26 @@ INSERT INTO Personnage Values
     ;
 
 -- Insertion de la table 'Evenement' ------
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (1, 'Combat contre Deep Sea King');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (2, 'Combat contre Carnage Kabuto');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (3, 'Combat contre Vaccine Man');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (4, 'Combat contre Garou');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (5, 'Combat contre Boros');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (6, 'Combat contre Gouketsu');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (7, 'Combat contre Elder Centipede');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (8, 'Combat contre Evil Natural Water');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (9, 'Combat contre Psykos');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (10, 'Combat contre Orochi');
-    INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
-    (11, 'Combat contre Black Sperm');
+    INSERT INTO Evenement  Values
+    (1, 'Combat contre Deep Sea King',1,24);
+    INSERT INTO Evenement  Values
+    (2, 'Combat contre Carnage Kabuto',3,14);
+    INSERT INTO Evenement  Values
+    (3, 'Combat contre Vaccine Man',4,7);
+    INSERT INTO Evenement  Values
+    (4, 'Combat contre Garou',2,2);
+    INSERT INTO Evenement  Values
+    (5, 'Combat contre Boros',13,18);
+    INSERT INTO Evenement  Values
+    (6, 'Combat contre Gouketsu',17,30);
+    INSERT INTO Evenement  Values
+    (7, 'Combat contre Elder Centipede',14,27);
+    INSERT INTO Evenement  Values
+    (8, 'Combat contre Evil Natural Water',16,16);
+    INSERT INTO Evenement  Values
+    (9, 'Combat contre Psykos',20,28);
+    INSERT INTO Evenement  Values
+    (10, 'Combat contre Orochi',24,2);
     
     
 --Insertion de la table 'Ville'
@@ -400,3 +398,43 @@ INSERT INTO Personnage Values
     INSERT INTO Lieu(numLieu, nomLieu,descriptionLieu,villeLieu) VALUES
     (32, 'Quartier de la justice', 'Un lieu où se trouvent les tribunaux, les bureaux des avocats et les institutions juridiques.',1)
     ;
+
+    INSERT INTO EpisodePersonnage VALUES (1,1);
+    INSERT INTO EpisodePersonnage VALUES (2,1);
+    INSERT INTO EpisodePersonnage VALUES (3,1);
+    INSERT INTO EpisodePersonnage VALUES (4,1);
+    INSERT INTO EpisodePersonnage VALUES (5,1);
+    INSERT INTO EpisodePersonnage VALUES (6,1);
+    INSERT INTO EpisodePersonnage VALUES (7,1);
+    INSERT INTO EpisodePersonnage VALUES (8,2);
+    INSERT INTO EpisodePersonnage VALUES (9,2);
+    INSERT INTO EpisodePersonnage VALUES (10,2);
+    INSERT INTO EpisodePersonnage VALUES (11,2);
+    INSERT INTO EpisodePersonnage VALUES (12,2);
+    INSERT INTO EpisodePersonnage VALUES (13,2);
+    INSERT INTO EpisodePersonnage VALUES (14,2);
+    INSERT INTO EpisodePersonnage VALUES (15,2);
+
+    INSERT INTO EvenementPersonnage VALUES (31,1); 
+    INSERT INTO EvenementPersonnage VALUES (29,2); 
+    INSERT INTO EvenementPersonnage VALUES (30,3); 
+    INSERT INTO EvenementPersonnage VALUES (21,4); 
+    INSERT INTO EvenementPersonnage VALUES (24,5); 
+    INSERT INTO EvenementPersonnage VALUES (1,6); 
+    INSERT INTO EvenementPersonnage VALUES (18,7);
+    INSERT INTO EvenementPersonnage VALUES (22,8);
+    INSERT INTO EvenementPersonnage VALUES (14,9);
+    INSERT INTO EvenementPersonnage VALUES (10,10);
+    INSERT INTO EvenementPersonnage VALUES (11,11);
+
+
+
+
+
+
+
+
+
+
+
+
