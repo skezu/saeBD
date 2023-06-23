@@ -85,7 +85,11 @@ BEGIN
     FROM EPISODE
     WHERE numEpisode = numDeEpisode-1;
 
-	DBMS_OUTPUT.PUT_LINE(descr);
+    IF numDeEpisode < 2 THEN 
+        DBMS_OUTPUT.PUT_LINE('Pas d''épisode avant');
+    ELSE
+	    DBMS_OUTPUT.PUT_LINE(descr);
+    END IF;
 
 END;
 
