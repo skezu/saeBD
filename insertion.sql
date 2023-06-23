@@ -75,27 +75,6 @@ INSERT INTO Personnage Values
     (32, 'Hammerhead', 'Hammerhead', 'Humain', 30, 'Homme', 'Hammerhead est un chef de gang qui utilise un casque en forme de marteau et cherche à renverser le système des héros.',null,9,7);
     INSERT INTO Personnage Values
     (33, 'Sea King', 'Sea King', 'Monstre', 27, 'Homme', 'Sea King est un monstre puissant qui attaque la ville et défie les héros pour combattre.',null,5,2);
-    /*INSERT INTO Personnage Values
-    (35, 'Boros', 'Dominator of the Universe', 'Unknown',3 , 'Male', 'Boros est le chef des envahisseurs de l''espace et cherche des adversaires puissants.');
-    INSERT INTO Personnage Values
-    (36, 'Gouketsu', 'Gouketsu', 'Humain Monstrifié', 26, 'Male', 'Gouketsu est un ancien champion des arts martiaux qui a été transformé en monstre puissant.');
-    INSERT INTO Personnage Values
-    (37, 'Elder Centipede', 'Elder Centipede', 'Monstre', 34, 'Unknown', 'Elder Centipede est un énorme monstre en forme de centipède qui est l''un des plus puissants membres de l''Association des monstres.');
-    INSERT INTO Personnage Values
-    (38, 'Overgrown Rover', 'Overgrown Rover', 'Monstre', 20, 'Unknown', 'Overgrown Rover est un monstre géant en forme de chien qui garde l''entrée du repaire de l''Association des monstres.');
-    INSERT INTO Personnage Values
-    (39, 'Evil Natural Water', 'Evil Natural Water', 'Monstre', 25, 'Unknown', 'Evil Natural Water est un monstre créé à partir de l''eau contaminée par les déchets toxiques.');
-    INSERT INTO Personnage Values
-    (40, 'Black Sperm', 'Black Sperm', 'Monstre', 28, 'Unknown', 'Black Sperm est un monstre en forme de sperme qui peut se diviser en de nombreux clones.');
-    INSERT INTO Personnage Values
-    (41, 'Homeless Emperor', 'Homeless Emperor', 'Humain Monstrifié', 21, 'Male', 'Homeless Emperor est un humain qui a obtenu des pouvoirs destructeurs après avoir été exposé à une météorite.');
-    INSERT INTO Personnage Values
-    (42, 'Gums', 'Gums', 'Monstre', 23, 'Unknown', 'Gums est un monstre sans peau avec une bouche géante et des dents acérées.');
-    INSERT INTO Personnage Values
-    (43, 'Fuhrer Ugly', 'Fuhrer Ugly', 'Monstre', 31, 'Male', 'Fuhrer Ugly est un monstre défiguré avec une apparence repoussante et une force brute.');
-    INSERT INTO Personnage Values
-    (44, 'Psykos', 'Psykos', 'Humain Monstrifié', 22, 'Female', 'Psykos est une télépathe puissante qui a fusionné avec un monstre pour augmenter ses pouvoirs et son apparence.')
-;*/
 
 --Insertion de la table Clan
     INSERT INTO Clan(numClan,nomClan,descriptionClan)VALUES
@@ -204,8 +183,31 @@ INSERT INTO Personnage Values
     (25, 'Force brute')
     ;
 --Insertion de la table 'Niveau'
-   /* INSERT INTO Niveau (numNiveau,numEpisode,numPersonnage,rangNiveau)VALUES (1,1,1,1)
-    ;*/
+    INSERT INTO Niveau VALUES (1,1,3);
+    INSERT INTO Niveau VALUES (2,2,1);
+    INSERT INTO Niveau VALUES (3,3,1);
+    INSERT INTO Niveau VALUES (4,9,2);
+    INSERT INTO Niveau VALUES (5,4,1);
+    INSERT INTO Niveau VALUES (6,5,3);
+    INSERT INTO Niveau VALUES (7,21,8);
+    INSERT INTO Niveau VALUES (8,17,1);
+    INSERT INTO Niveau VALUES (9,33,7);
+    INSERT INTO Niveau VALUES (10,10,1);
+    INSERT INTO Niveau VALUES (11,12,1);
+    INSERT INTO Niveau VALUES (12,14,1);
+    INSERT INTO Niveau VALUES (13,23,4);
+    INSERT INTO Niveau VALUES (14,29,7);
+    INSERT INTO Niveau VALUES (15,24,4);
+    INSERT INTO Niveau VALUES (16,24,3);
+    INSERT INTO Niveau VALUES (17,25,4);
+    INSERT INTO Niveau VALUES (18,25,3);
+    INSERT INTO Niveau VALUES (19,29,6);
+    INSERT INTO Niveau VALUES (20,23,3);
+    INSERT INTO Niveau VALUES (21,33,6);
+    INSERT INTO Niveau VALUES (22,21,6);
+    INSERT INTO Niveau VALUES (23,9,1);
+    INSERT INTO Niveau VALUES (24,1,3);
+    ;
 
 -- Insertion de la table 'Evenement' ------
     INSERT INTO Evenement(numEvenement,descriptionEvenement) Values
