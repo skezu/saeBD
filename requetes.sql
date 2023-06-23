@@ -11,9 +11,10 @@ AND P1.nomPersonnage = 'Genos'
 AND P2.ROLEPERSONNAGE = 'Monstre';
 
 
+
 -- 5. Quelle ville a sollicité le plus d’intervention de héros
-Select numVille, nomVille, count(numEvenement) from Ville
-INNER JOIN Lieu L ON L.VILLELIEU = Ville.numVille
+Select numVille, nomVille, count(numEvenement) from Ville V
+INNER JOIN Lieu L ON L.VILLELIEU = V.numVille
 INNER JOIN Evenement E ON E.LIEUEVENEMENT = L.NUMLIEU
 INNER JOIN EVENEMENTPERSONNAGE A ON A.numEvenement = E.numEvenement
 INNER JOIN Personnage P ON P.numPersonnage = A.numPersonnage
@@ -29,7 +30,7 @@ INNER JOIN ROLEROLE R ON R.numRoleRole = P.ROLEPERSONNAGE
 WHERE R.NOMROLEROLE = 'Héros');
 
 -- 6. Donner la liste nominative des amis de l'héro Saitama
-SELECT nomPersonnage, AliasPersonnage
+SELECT P1.nomPersonnage, P1.AliasPersonnage
 FROM Personnage P1
 INNER JOIN Personnage P2 ON P1.numPersonnage = P2.numPersonnage
 INNER JOIN RELATION R ON P1.numPersonnage = R.numPersonnage
@@ -45,7 +46,7 @@ INNER JOIN RoleRole R2 ON R2.NUMROLEROLE = P2.ROLEPERSONNAGE
 INNER JOIN EVENEMENTPERSONNAGE AF ON P1.numPersonnage = AF.numPersonnage
 INNER JOIN EVENEMENTPERSONNAGE AF2 ON P2.numPersonnage = AF2.numPersonnage
 WHERE R.nomRoleRole = 'Monstre' AND R2.nomRoleRole = 'Héros'
-GROUP BY numpersonnage, nomPersonnage, AliasPersonnage
+GROUP BY p1.numpersonnage, p1.nomPersonnage, p1.AliasPersonnage
 HAVING count(P1.numPersonnage)>=15;
 
 -- 8. Donner la liste des combats d’un épisode X
@@ -69,7 +70,7 @@ end;
 -- 10. Donner les vainqueurs des différents combats à partir d’un épisode X avec leurs adversaires
 
 -- 11. Donner la liste des amis de Saitama masculin
-SELECT nomPersonnage, AliasPersonnage
+SELECT p1.nomPersonnage, p1.AliasPersonnage
 FROM Personnage P1
  INNER JOIN Personnage P2 ON P1.numPersonnage = P2.numPersonnage
  INNER JOIN RELATION R ON P1.numPersonnage = R.numPersonnage

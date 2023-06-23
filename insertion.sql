@@ -8,6 +8,156 @@ INSERT INTO Rang VALUES (6, 'Dragon');
 INSERT INTO Rang VALUES (7, 'Demon');
 INSERT INTO Rang VALUES (8, 'Tigre');
 
+--Insertion de la table Role
+INSERT INTO RoleRole VALUES
+(1, 'Héros');
+INSERT INTO RoleRole VALUES
+(2, 'Monstre');
+INSERT INTO RoleRole VALUES
+(3, 'Ninja');
+INSERT INTO RoleRole VALUES
+(4, 'Assassin');
+INSERT INTO RoleRole VALUES
+(5, 'Scientifique');
+INSERT INTO RoleRole VALUES
+(6, 'Citoyen');
+INSERT INTO RoleRole VALUES
+(7, 'Vilain');
+INSERT INTO RoleRole VALUES
+(8, 'Mercenaire');
+INSERT INTO RoleRole VALUES
+(9, 'Dieu');
+INSERT INTO RoleRole VALUES
+(10, 'Sauveur');
+INSERT INTO RoleRole VALUES
+(11, 'Membre de l''Association des héros')
+;
+
+--Insertion de la table Specialite
+INSERT INTO Specialite VALUES
+(1, 'Arts Martiaux');
+INSERT INTO Specialite VALUES
+(2, 'Télékinésie');
+INSERT INTO Specialite VALUES
+(3, 'Pouvoirs Psychiques');
+INSERT INTO Specialite VALUES
+(4, 'Cyborg');
+INSERT INTO Specialite VALUES
+(5, 'Manipulation de l''eau');
+INSERT INTO Specialite VALUES
+(6, 'Armes à feu');
+INSERT INTO Specialite VALUES
+(7, 'Attaques basées sur le son');
+INSERT INTO Specialite VALUES
+(8, 'Robotique');
+INSERT INTO Specialite VALUES
+(9, 'Immortalité');
+INSERT INTO Specialite VALUES
+(10, 'Vitesse et Agilité');
+INSERT INTO Specialite VALUES
+(11, 'Force surhumaine');
+INSERT INTO Specialite VALUES
+(12, 'Peau métallique');
+INSERT INTO Specialite VALUES
+(13, 'Maîtrise du sabre');
+INSERT INTO Specialite VALUES
+(14, 'Transformation monstrueuse');
+INSERT INTO Specialite VALUES
+(15, 'Détection des mensonges');
+INSERT INTO Specialite VALUES
+(16, 'Détection des mouvements');
+INSERT INTO Specialite VALUES
+(17, 'Guerison accélérée');
+INSERT INTO Specialite VALUES
+(18, 'Super-saut');
+INSERT INTO Specialite VALUES
+(19, 'Transformation en monstre');
+INSERT INTO Specialite VALUES
+(20, 'Télépathie');
+INSERT INTO Specialite VALUES
+(21, 'Régénération');
+INSERT INTO Specialite VALUES
+(22, 'Transformation en centipède');
+INSERT INTO Specialite VALUES
+(23, 'Division en clones');
+INSERT INTO Specialite VALUES
+(24, 'Pouvoirs destructeurs');
+INSERT INTO Specialite VALUES
+(25, 'Force brute')
+;
+--Insertion de la table Clan
+INSERT INTO Clan VALUES
+(1, 'Association des héros', 'L''Association des héros est une organisation qui rassemble les héros et les aide à lutter contre les menaces.');
+INSERT INTO Clan VALUES
+(2, 'Groupe Blizzard', 'Le Groupe Blizzard est une équipe de héros de classe B dirigée par Fubuki, également connue sous le nom de Blizzard of Hell.');
+INSERT INTO Clan VALUES
+(3, 'Souterrains', 'Les Souterrains sont un groupe de monstres qui vivent dans les profondeurs de la Terre et complotent pour envahir la surface.');
+INSERT INTO Clan VALUES
+(4, 'House of Evolution', 'La House of Evolution est une organisation dirigée par le Dr. Genus qui cherche à créer des êtres surhumains par le biais de manipulations génétiques.');
+INSERT INTO Clan VALUES
+(5, 'Association des monstres', 'L''Association des monstres est un regroupement de monstres puissants qui cherchent à éliminer les héros et à dominer le monde.');
+INSERT INTO Clan VALUES
+(6, 'Ninjas de l''Association des monstres', 'Les Ninjas de l''Association des monstres sont un groupe de ninjas puissants qui se sont ralliés à l''Association des monstres.');
+INSERT INTO Clan VALUES
+(7, 'Infiltrateurs de l''Association des monstres', 'Les Infiltrateurs de l''Association des monstres sont des monstres qui se sont infiltrés dans la société humaine pour semer le chaos.');
+INSERT INTO Clan VALUES
+(8, 'Clan des requins', 'Le Clan des requins est un groupe de monstres qui règne sur les océans et menace les habitants des côtes.');
+INSERT INTO Clan VALUES
+(9, 'Groupe des mercenaires solitaires', 'Le Groupe des mercenaires solitaires est constitué de héros indépendants qui préfèrent agir seuls plutôt qu''au sein de l''Association des héros.');
+INSERT INTO Clan VALUES
+(10, 'Clan des ninjas', 'Le Clan des ninjas est un groupe de ninjas qui se consacrent à l''entraînement et à la maîtrise des arts martiaux.');
+INSERT INTO Clan VALUES
+(11, 'Clan des moines', 'Le Clan des moines est un groupe de moines qui utilisent leurs pouvoirs spirituels pour combattre le mal et protéger les innocents.');
+INSERT INTO Clan VALUES
+(12, 'Clan de la famille royale des monstres', 'Le Clan de la famille royale des monstres est composé des monstres les plus puissants de l''Association des monstres, y compris Orochi.');
+INSERT INTO Clan VALUES
+(13, 'Clan des assassins', 'Le Clan des assassins est un groupe d''assassins mortels qui acceptent des contrats pour éliminer des cibles.')
+;
+
+--Insertion de la table 'Ville'
+INSERT INTO Ville VALUES
+    (1, 'Z-City');
+INSERT INTO Ville VALUES
+    (2, 'A-City');
+INSERT INTO Ville VALUES
+    (3, 'B-City');
+INSERT INTO Ville VALUES
+    (4, 'C-City');
+INSERT INTO Ville VALUES
+    (5, 'D-City');
+INSERT INTO Ville VALUES
+    (6, 'Q-City');
+INSERT INTO Ville VALUES
+    (7, 'R-City');
+INSERT INTO Ville VALUES
+    (8, 'S-City');
+INSERT INTO Ville VALUES
+    (9, 'T-City');
+INSERT INTO Ville VALUES
+    (10, 'F-City');
+
+--Insertion de la table 'Arc'
+INSERT INTO Arc VALUES
+    (1, 'Arc de l''Introduction', 'Cet arc présente les personnages principaux et établit l''univers de One Punch Man.');
+INSERT INTO Arc VALUES
+    (2, 'Arc de la Maison de l''Évolution', 'Saitama affronte divers monstres créés par l''House of Evolution.');
+INSERT INTO Arc VALUES
+    (3, 'Arc de l''Invasion de Boros', 'Boros, le chef des envahisseurs de l''espace, attaque la Terre et défie Saitama.');
+INSERT INTO Arc VALUES
+    (4, 'Arc du Roi des Profondeurs', 'Le Roi des Profondeurs, un monstre puissant, menace la ville et affronte les héros.');
+INSERT INTO Arc VALUES
+    (5, 'Arc de la Chasse aux Héros', 'Garou, un ancien disciple de Bang, traque les héros et les défie un par un.');
+INSERT INTO Arc VALUES
+    (6, 'Arc de l''Association des Monstres', 'L''Association des Monstres se révèle et provoque des combats épiques contre les héros.');
+INSERT INTO Arc VALUES
+    (7, 'Arc de l''Invasion des Extraterrestres', 'Des extraterrestres puissants envahissent la Terre, entraînant des batailles intenses.');
+INSERT INTO Arc VALUES
+    (8, 'Arc du Super Fight', 'Le tournoi Super Fight rassemble les héros et les monstres dans des combats spectaculaires.');
+INSERT INTO Arc VALUES
+    (9, 'Arc de l''Association des Héros', 'L''Association des Héros est confrontée à des défis internes et externes.');
+INSERT INTO Arc VALUES
+    (10, 'Arc de l''Apocalypse', 'Une menace imminente met en péril l''existence même de la Terre et les héros doivent se rassembler pour la combattre.');
+
 --Insertion personnages
 INSERT INTO Personnage Values
     (1, 'Saitama', 'One Punch Man', 'Humain', 25, 'M', 'Saitama est un super-héros extrêmement puissant qui peut vaincre n importe quel ennemi en un seul coup.',1,1,1);
@@ -76,112 +226,80 @@ INSERT INTO Personnage Values
     INSERT INTO Personnage Values
     (33, 'Sea King', 'Sea King', 'Monstre', 27, 'M', 'Sea King est un monstre puissant qui attaque la ville et défie les héros pour combattre.',null,5,2);
 
---Insertion de la table Clan
-    INSERT INTO Clan VALUES
-    (1, 'Association des héros', 'L''Association des héros est une organisation qui rassemble les héros et les aide à lutter contre les menaces.');
-     INSERT INTO Clan VALUES
-    (2, 'Groupe Blizzard', 'Le Groupe Blizzard est une équipe de héros de classe B dirigée par Fubuki, également connue sous le nom de Blizzard of Hell.');
-    INSERT INTO Clan VALUES
-    (3, 'Souterrains', 'Les Souterrains sont un groupe de monstres qui vivent dans les profondeurs de la Terre et complotent pour envahir la surface.');
-    INSERT INTO Clan VALUES
-    (4, 'House of Evolution', 'La House of Evolution est une organisation dirigée par le Dr. Genus qui cherche à créer des êtres surhumains par le biais de manipulations génétiques.');
-    INSERT INTO Clan VALUES
-    (5, 'Association des monstres', 'L''Association des monstres est un regroupement de monstres puissants qui cherchent à éliminer les héros et à dominer le monde.');
-    INSERT INTO Clan VALUES
-    (6, 'Ninjas de l''Association des monstres', 'Les Ninjas de l''Association des monstres sont un groupe de ninjas puissants qui se sont ralliés à l''Association des monstres.');
-    INSERT INTO Clan VALUES
-    (7, 'Infiltrateurs de l''Association des monstres', 'Les Infiltrateurs de l''Association des monstres sont des monstres qui se sont infiltrés dans la société humaine pour semer le chaos.');
-    INSERT INTO Clan VALUES
-    (8, 'Clan des requins', 'Le Clan des requins est un groupe de monstres qui règne sur les océans et menace les habitants des côtes.');
-    INSERT INTO Clan VALUES
-    (9, 'Groupe des mercenaires solitaires', 'Le Groupe des mercenaires solitaires est constitué de héros indépendants qui préfèrent agir seuls plutôt qu''au sein de l''Association des héros.');
-    INSERT INTO Clan VALUES
-    (10, 'Clan des ninjas', 'Le Clan des ninjas est un groupe de ninjas qui se consacrent à l''entraînement et à la maîtrise des arts martiaux.');
-    INSERT INTO Clan VALUES
-    (11, 'Clan des moines', 'Le Clan des moines est un groupe de moines qui utilisent leurs pouvoirs spirituels pour combattre le mal et protéger les innocents.');
-    INSERT INTO Clan VALUES
-    (12, 'Clan de la famille royale des monstres', 'Le Clan de la famille royale des monstres est composé des monstres les plus puissants de l''Association des monstres, y compris Orochi.');
-    INSERT INTO Clan VALUES
-    (13, 'Clan des assassins', 'Le Clan des assassins est un groupe d''assassins mortels qui acceptent des contrats pour éliminer des cibles.')
+INSERT INTO Lieu VALUES
+    (1, 'Centre-ville', 'Le cœur de la ville, où se trouvent les gratte-ciels, les magasins et les principales attractions.', 1);
+INSERT INTO Lieu VALUES
+    (2, 'Quartier résidentiel', 'Une zone paisible où se trouvent principalement des maisons et des résidences.',1);
+INSERT INTO Lieu VALUES
+    (3, 'Quartier commerçant', 'Un lieu animé avec de nombreux commerces, boutiques et marchés.',1);
+INSERT INTO Lieu VALUES
+    (4, 'Parc central', 'Un grand parc public avec des espaces verts, des aires de jeux et des installations sportives.',1);
+INSERT INTO Lieu VALUES
+    (5, 'Quartier industriel', 'Une zone industrielle abritant des usines, des entrepôts et des installations de production.',1);
+INSERT INTO Lieu VALUES
+    (6, 'Zone côtière', 'Une zone le long de la côte avec des plages, des ports et des activités maritimes.',1);
+INSERT INTO Lieu VALUES
+    (7, 'Quartier des héros', 'Un quartier dédié aux héros, comprenant des bureaux, des salles d''entraînement et des quartiers généraux.',1);
+INSERT INTO Lieu VALUES
+    (8, 'Quartier des monstres', 'Un secteur dangereux infesté de monstres et de créatures maléfiques.',1);
+INSERT INTO Lieu VALUES
+    (9, 'Quartier des arts martiaux', 'Un lieu où se déroulent des compétitions d''arts martiaux et des tournois.',1);
+INSERT INTO Lieu VALUES
+    (10, 'Quartier de la haute société', 'Un quartier luxueux avec des résidences opulentes et des lieux de divertissement pour l''élite sociale.',1);
+INSERT INTO Lieu VALUES
+    (11, 'Quartier des étudiants', 'Un quartier dynamique où se trouvent les campus universitaires, les résidences étudiantes et les lieux de divertissement des étudiants.',1);
+INSERT INTO Lieu VALUES
+    (12, 'Quartier historique', 'Une zone riche en histoire, avec des bâtiments anciens, des musées et des monuments historiques.',1);
+INSERT INTO Lieu VALUES
+    (13, 'Quartier des sciences', 'Un secteur dédié à la recherche scientifique, abritant des laboratoires, des instituts et des centres de recherche.',1);
+INSERT INTO Lieu VALUES
+    (14, 'Quartier souterrain', 'Un réseau de tunnels et de cavernes souterraines, souvent fréquenté par des groupes criminels.',1);
+INSERT INTO Lieu VALUES
+    (15, 'Quartier des divertissements', 'Un lieu animé avec des théâtres, des cinémas, des salles de concert et des lieux de divertissement en général.',1);
+INSERT INTO Lieu VALUES
+    (16, 'Quartier des robots', 'Un quartier où se concentrent les industries de la robotique, avec des usines, des centres de développement et des expositions technologiques.',1);
+INSERT INTO Lieu VALUES
+    (17, 'Quartier des restaurants', 'Une zone regroupant une grande variété de restaurants, allant des stands de rue aux restaurants gastronomiques.',1);
+INSERT INTO Lieu VALUES
+    (18, 'Quartier des affaires', 'Un centre financier et commercial important, avec des bureaux, des sièges sociaux d''entreprises et des centres d''affaires.',1);
+INSERT INTO Lieu VALUES
+    (19, 'Quartier des sports', 'Un lieu où se déroulent des événements sportifs, des stades, des installations sportives et des salles de gym.',1);
+INSERT INTO Lieu VALUES
+    (20, 'Quartier des gangs', 'Un territoire contrôlé par des gangs et des organisations criminelles, caractérisé par une activité illégale et dangereuse.',1);
+INSERT INTO Lieu VALUES
+    (21, 'Quartier hospitalier', 'Une zone regroupant des hôpitaux, des cliniques et des centres médicaux.',1);
+INSERT INTO Lieu VALUES
+    (22, 'Quartier des mystères', 'Un endroit énigmatique avec des phénomènes surnaturels et des lieux mystérieux.',1);
+INSERT INTO Lieu VALUES
+    (23, 'Quartier touristique', 'Un lieu populaire auprès des touristes, avec des attractions, des hôtels et des sites touristiques.',1);
+INSERT INTO Lieu VALUES
+    (24, 'Quartier des arts', 'Un secteur dédié à l''expression artistique, avec des galeries d''art, des musées et des studios.',1);
+INSERT INTO Lieu VALUES
+    (25, 'Quartier des transports', 'Une zone stratégique où se trouvent les gares, les stations de métro et les hubs de transport.',1);
+INSERT INTO Lieu VALUES
+    (26, 'Quartier abandonné', 'Un endroit déserté et laissé à l''abandon, avec des bâtiments en ruines et une atmosphère lugubre.',1);
+INSERT INTO Lieu VALUES
+    (27, 'Centre de recherche', 'Un lieu dédié à la recherche scientifique et technologique avancée.',1);
+INSERT INTO Lieu VALUES
+    (28, 'Quartier des divertissements', 'Une zone de divertissement avec des parcs d''attractions, des cinémas et des salles de jeux.',1);
+INSERT INTO Lieu VALUES
+    (29, 'Stade', 'Un grand stade sportif où se déroulent des événements et des compétitions.',1);
+INSERT INTO Lieu VALUES
+    (30, 'Base secrète', 'Un repaire caché utilisé par des groupes clandestins et des organisations secrètes.',1);
+INSERT INTO Lieu VALUES
+    (31, 'Quartier des célébrités', 'Un lieu où résident les célébrités, les stars du showbiz et les personnalités médiatiques.',1);
+INSERT INTO Lieu VALUES
+    (32, 'Quartier de la justice', 'Un lieu où se trouvent les tribunaux, les bureaux des avocats et les institutions juridiques.',1)
 ;
 
---Insertion de la table Role
-   INSERT INTO RoleRole VALUES
-    (1, 'Héros');
-    INSERT INTO RoleRole VALUES
-    (2, 'Monstre');
-    INSERT INTO RoleRole VALUES
-    (3, 'Ninja');
-    INSERT INTO RoleRole VALUES
-    (4, 'Assassin');
-    INSERT INTO RoleRole VALUES
-    (5, 'Scientifique');
-    INSERT INTO RoleRole VALUES
-    (6, 'Citoyen');
-    INSERT INTO RoleRole VALUES
-    (7, 'Vilain');
-    INSERT INTO RoleRole VALUES
-    (8, 'Mercenaire');
-    INSERT INTO RoleRole VALUES
-    (9, 'Dieu');
-    INSERT INTO RoleRole VALUES
-    (10, 'Sauveur');
-    INSERT INTO RoleRole VALUES
-    (11, 'Membre de l''Association des héros')
-    ;
+INSERT INTO Relation VALUES (1,3,'amie');
+INSERT INTO Relation VALUES (5,2,'enemie');
+INSERT INTO Relation VALUES (3,4,'amie');
+INSERT INTO Relation VALUES (9,10,'maitre, élève');
+INSERT INTO Relation VALUES (12,23,'viral');
+INSERT INTO Relation VALUES (10,12,'père, fils');
 
---Insertion de la table Specialite
-    INSERT INTO Specialite VALUES
-    (1, 'Arts Martiaux');
-    INSERT INTO Specialite VALUES
-    (2, 'Télékinésie');
-    INSERT INTO Specialite VALUES
-    (3, 'Pouvoirs Psychiques');
-    INSERT INTO Specialite VALUES
-    (4, 'Cyborg');
-    INSERT INTO Specialite VALUES
-    (5, 'Manipulation de l''eau');
-    INSERT INTO Specialite VALUES
-    (6, 'Armes à feu');
-    INSERT INTO Specialite VALUES
-    (7, 'Attaques basées sur le son');
-    INSERT INTO Specialite VALUES
-    (8, 'Robotique');
-    INSERT INTO Specialite VALUES
-    (9, 'Immortalité');
-    INSERT INTO Specialite VALUES
-    (10, 'Vitesse et Agilité');
-    INSERT INTO Specialite VALUES
-    (11, 'Force surhumaine');
-    INSERT INTO Specialite VALUES
-    (12, 'Peau métallique');
-    INSERT INTO Specialite VALUES
-    (13, 'Maîtrise du sabre');
-    INSERT INTO Specialite VALUES
-    (14, 'Transformation monstrueuse');
-    INSERT INTO Specialite VALUES
-    (15, 'Détection des mensonges');
-    INSERT INTO Specialite VALUES
-    (16, 'Détection des mouvements');
-    INSERT INTO Specialite VALUES
-    (17, 'Guerison accélérée');
-    INSERT INTO Specialite VALUES
-    (18, 'Super-saut');
-    INSERT INTO Specialite VALUES
-    (19, 'Transformation en monstre');
-    INSERT INTO Specialite VALUES
-    (20, 'Télépathie');
-    INSERT INTO Specialite VALUES
-    (21, 'Régénération');
-    INSERT INTO Specialite VALUES
-    (22, 'Transformation en centipède');
-    INSERT INTO Specialite VALUES
-    (23, 'Division en clones');
-    INSERT INTO Specialite VALUES
-    (24, 'Pouvoirs destructeurs');
-    INSERT INTO Specialite VALUES
-    (25, 'Force brute')
-    ;
+
 --Insertion de la table 'Niveau'
     INSERT INTO Niveau VALUES (1,1,3);
     INSERT INTO Niveau VALUES (2,2,1);
@@ -229,51 +347,9 @@ INSERT INTO Personnage Values
     (9, 'Combat contre Psykos',20,28);
     INSERT INTO Evenement  Values
     (10, 'Combat contre Orochi',24,2);
-    
-    
---Insertion de la table 'Ville'
-    INSERT INTO Ville VALUES
-    (1, 'Z-City');
-    INSERT INTO Ville VALUES
-    (2, 'A-City');
-    INSERT INTO Ville VALUES
-    (3, 'B-City');
-    INSERT INTO Ville VALUES
-    (4, 'C-City');
-    INSERT INTO Ville VALUES
-    (5, 'D-City');
-    INSERT INTO Ville VALUES
-    (6, 'Q-City');
-    INSERT INTO Ville VALUES
-    (7, 'R-City');
-    INSERT INTO Ville VALUES
-    (8, 'S-City');
-    INSERT INTO Ville VALUES
-    (9, 'T-City');
-    INSERT INTO Ville VALUES
-    (10, 'F-City');
 
---Insertion de la table 'Arc'
-    INSERT INTO Arc VALUES
-    (1, 'Arc de l''Introduction', 'Cet arc présente les personnages principaux et établit l''univers de One Punch Man.');
-    INSERT INTO Arc VALUES
-    (2, 'Arc de la Maison de l''Évolution', 'Saitama affronte divers monstres créés par l''House of Evolution.');
-    INSERT INTO Arc VALUES
-    (3, 'Arc de l''Invasion de Boros', 'Boros, le chef des envahisseurs de l''espace, attaque la Terre et défie Saitama.');
-    INSERT INTO Arc VALUES
-    (4, 'Arc du Roi des Profondeurs', 'Le Roi des Profondeurs, un monstre puissant, menace la ville et affronte les héros.');
-    INSERT INTO Arc VALUES
-    (5, 'Arc de la Chasse aux Héros', 'Garou, un ancien disciple de Bang, traque les héros et les défie un par un.');
-    INSERT INTO Arc VALUES
-    (6, 'Arc de l''Association des Monstres', 'L''Association des Monstres se révèle et provoque des combats épiques contre les héros.');
-    INSERT INTO Arc VALUES
-    (7, 'Arc de l''Invasion des Extraterrestres', 'Des extraterrestres puissants envahissent la Terre, entraînant des batailles intenses.');
-    INSERT INTO Arc VALUES
-    (8, 'Arc du Super Fight', 'Le tournoi Super Fight rassemble les héros et les monstres dans des combats spectaculaires.');
-    INSERT INTO Arc VALUES
-    (9, 'Arc de l''Association des Héros', 'L''Association des Héros est confrontée à des défis internes et externes.');
-    INSERT INTO Arc VALUES
-    (10, 'Arc de l''Apocalypse', 'Une menace imminente met en péril l''existence même de la Terre et les héros doivent se rassembler pour la combattre.');
+
+
     
 --Insertion de la table 'Saison'    
     INSERT INTO Saison VALUES
@@ -332,71 +408,7 @@ INSERT INTO Personnage Values
     (24, 'Le secret dévoilé', 12, '24 min', 'Le secret derrière les pouvoirs de Saitama est enfin révélé.',2);
    
 -- Insertion de la table lieu   
-    INSERT INTO Lieu VALUES
-    (1, 'Centre-ville', 'Le cœur de la ville, où se trouvent les gratte-ciels, les magasins et les principales attractions.', 1);
-    INSERT INTO Lieu VALUES
-    (2, 'Quartier résidentiel', 'Une zone paisible où se trouvent principalement des maisons et des résidences.',1);
-    INSERT INTO Lieu VALUES
-    (3, 'Quartier commerçant', 'Un lieu animé avec de nombreux commerces, boutiques et marchés.',1);
-    INSERT INTO Lieu VALUES
-    (4, 'Parc central', 'Un grand parc public avec des espaces verts, des aires de jeux et des installations sportives.',1);
-    INSERT INTO Lieu VALUES
-    (5, 'Quartier industriel', 'Une zone industrielle abritant des usines, des entrepôts et des installations de production.',1);
-    INSERT INTO Lieu VALUES
-    (6, 'Zone côtière', 'Une zone le long de la côte avec des plages, des ports et des activités maritimes.',1);
-    INSERT INTO Lieu VALUES
-    (7, 'Quartier des héros', 'Un quartier dédié aux héros, comprenant des bureaux, des salles d''entraînement et des quartiers généraux.',1);
-    INSERT INTO Lieu VALUES
-    (8, 'Quartier des monstres', 'Un secteur dangereux infesté de monstres et de créatures maléfiques.',1);
-    INSERT INTO Lieu VALUES
-    (9, 'Quartier des arts martiaux', 'Un lieu où se déroulent des compétitions d''arts martiaux et des tournois.',1);
-    INSERT INTO Lieu VALUES
-    (10, 'Quartier de la haute société', 'Un quartier luxueux avec des résidences opulentes et des lieux de divertissement pour l''élite sociale.',1);
-    INSERT INTO Lieu VALUES
-    (11, 'Quartier des étudiants', 'Un quartier dynamique où se trouvent les campus universitaires, les résidences étudiantes et les lieux de divertissement des étudiants.',1);
-    INSERT INTO Lieu VALUES
-    (12, 'Quartier historique', 'Une zone riche en histoire, avec des bâtiments anciens, des musées et des monuments historiques.',1);
-    INSERT INTO Lieu VALUES
-    (13, 'Quartier des sciences', 'Un secteur dédié à la recherche scientifique, abritant des laboratoires, des instituts et des centres de recherche.',1);
-    INSERT INTO Lieu VALUES
-    (14, 'Quartier souterrain', 'Un réseau de tunnels et de cavernes souterraines, souvent fréquenté par des groupes criminels.',1);
-    INSERT INTO Lieu VALUES
-    (15, 'Quartier des divertissements', 'Un lieu animé avec des théâtres, des cinémas, des salles de concert et des lieux de divertissement en général.',1);
-    INSERT INTO Lieu VALUES
-    (16, 'Quartier des robots', 'Un quartier où se concentrent les industries de la robotique, avec des usines, des centres de développement et des expositions technologiques.',1);
-    INSERT INTO Lieu VALUES
-    (17, 'Quartier des restaurants', 'Une zone regroupant une grande variété de restaurants, allant des stands de rue aux restaurants gastronomiques.',1);
-    INSERT INTO Lieu VALUES
-    (18, 'Quartier des affaires', 'Un centre financier et commercial important, avec des bureaux, des sièges sociaux d''entreprises et des centres d''affaires.',1);
-    INSERT INTO Lieu VALUES
-    (19, 'Quartier des sports', 'Un lieu où se déroulent des événements sportifs, des stades, des installations sportives et des salles de gym.',1);
-    INSERT INTO Lieu VALUES
-    (20, 'Quartier des gangs', 'Un territoire contrôlé par des gangs et des organisations criminelles, caractérisé par une activité illégale et dangereuse.',1);
-    INSERT INTO Lieu VALUES
-    (21, 'Quartier hospitalier', 'Une zone regroupant des hôpitaux, des cliniques et des centres médicaux.',1);
-    INSERT INTO Lieu VALUES
-    (22, 'Quartier des mystères', 'Un endroit énigmatique avec des phénomènes surnaturels et des lieux mystérieux.',1);
-    INSERT INTO Lieu VALUES
-    (23, 'Quartier touristique', 'Un lieu populaire auprès des touristes, avec des attractions, des hôtels et des sites touristiques.',1);
-    INSERT INTO Lieu VALUES
-    (24, 'Quartier des arts', 'Un secteur dédié à l''expression artistique, avec des galeries d''art, des musées et des studios.',1);
-    INSERT INTO Lieu VALUES
-    (25, 'Quartier des transports', 'Une zone stratégique où se trouvent les gares, les stations de métro et les hubs de transport.',1);
-    INSERT INTO Lieu VALUES
-    (26, 'Quartier abandonné', 'Un endroit déserté et laissé à l''abandon, avec des bâtiments en ruines et une atmosphère lugubre.',1);
-    INSERT INTO Lieu VALUES
-    (27, 'Centre de recherche', 'Un lieu dédié à la recherche scientifique et technologique avancée.',1);
-    INSERT INTO Lieu VALUES
-    (28, 'Quartier des divertissements', 'Une zone de divertissement avec des parcs d''attractions, des cinémas et des salles de jeux.',1);
-    INSERT INTO Lieu VALUES
-    (29, 'Stade', 'Un grand stade sportif où se déroulent des événements et des compétitions.',1);
-    INSERT INTO Lieu VALUES
-    (30, 'Base secrète', 'Un repaire caché utilisé par des groupes clandestins et des organisations secrètes.',1);
-    INSERT INTO Lieu VALUES
-    (31, 'Quartier des célébrités', 'Un lieu où résident les célébrités, les stars du showbiz et les personnalités médiatiques.',1);
-    INSERT INTO Lieu VALUES
-    (32, 'Quartier de la justice', 'Un lieu où se trouvent les tribunaux, les bureaux des avocats et les institutions juridiques.',1)
-    ;
+
 
     INSERT INTO EpisodePersonnage VALUES (1,1);
     INSERT INTO EpisodePersonnage VALUES (2,1);
@@ -467,9 +479,3 @@ INSERT INTO Personnage Values
     INSERT INTO SpecialitePersonnage VALUES (9,6);
     INSERT INTO SpecialitePersonnage VALUES (10,8);
 
-    INSERT INTO Relation VALUES (1,3,'amie');
-    INSERT INTO Relation VALUES (5,2,'enemie');
-    INSERT INTO Relation VALUES (3,4,'amie');
-    INSERT INTO Relation VALUES (9,10,'maitre, élève');
-    INSERT INTO Relation VALUES (12,23,'viral');
-    INSERT INTO Relation VALUES (10,12,'père, fils');
